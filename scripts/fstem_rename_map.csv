@@ -1,0 +1,360 @@
+fstem_id,mit_code,mit_title,rung,vertical,text_folder,text_repo,text_kb,fstem_title_2026
+FSTEM-CORE-R4-001,15.317,Organizational Leadership and Change,masters,general_core,15.317-summer-2009,OCW1,130,Organizational Leadership and Change
+FSTEM-CORE-R4-002,ESD.S43,Green Supply Chain Management,masters,general_core,esd.s43-spring-2014,OCW1,132,Green Supply Chain Management
+FSTEM-ARTS-R4-001,4.241J,Theory of City Form,masters,arts,4.241j-spring-2013,OCW1,961,Theory of City Form
+FSTEM-ARTS-R4-002,4.461,Building Technology I: Materials and Construction,masters,arts,4.461-fall-2004,OCW1,67,Building Technology I: Materials and Construction
+FSTEM-ARTS-R4-003,4.607,Thinking About Architecture: In History and at Present,masters,arts,4.607-fall-2009,ocwwestcivGrad,50,Thinking About Architecture: In History and at Present
+FSTEM-ARTS-R4-004,4.638,Drawings & Numbers: Five Centuries of Digital Design,masters,arts,4.638-fall-2002,ocwwestcivGrad,50,Drawings & Numbers: Five Centuries of Digital Design
+FSTEM-ARTS-R4-005,4.645,Selected Topics in Architecture: Architecture from 1750 to the Present,masters,arts,4.645-fall-2004,ocwwestcivGrad,137,Selected Topics in Architecture: Architecture from 1750 to the Present
+FSTEM-ARTS-R4-006,4.661,Theory and Method in the Study of Architecture and Art,masters,arts,4.661-fall-2015,ocwwestcivGrad,51,Theory and Method in the Study of Architecture and Art
+FSTEM-ARTS-R4-007,4.696,A Global History of Architecture Writing Seminar,masters,arts,4.696-spring-2008,ocwwestcivGrad,72,A Global History of Architecture Writing Seminar
+FSTEM-CS-R4-001,15.097,Prediction: Machine Learning and Statistics,masters,computer_science,15.097-spring-2012,OCW1,133,Prediction: Machine Learning and Statistics
+FSTEM-CS-R4-002,15.561,Information Technology Essentials,masters,computer_science,15.561-spring-2005,OCW1,86,Information Technology Essentials
+FSTEM-CS-R4-003,15.599,Workshop in IT: Collaborative Innovation Networks,masters,computer_science,15.599-fall-2011,OCW1,87,Workshop in IT: Collaborative Innovation Networks
+FSTEM-CS-R4-004,15.768,"Management of Services: Concepts, Design, and Delivery",masters,computer_science,15.768-fall-2010,OCW1,78,"Management of Services: Concepts, Design, and Delivery"
+FSTEM-CS-R4-005,15.769,Operations Strategy,masters,computer_science,15.769-fall-2010,OCW1,99,Operations Strategy
+FSTEM-CS-R4-006,15.773,Hands-on Deep Learning,masters,computer_science,15.773-spring-2024,OCW1,102,Hands-on Deep Learning
+FSTEM-CS-R4-007,15.778,Management of Supply Networks for Products and Services,masters,computer_science,15.778-summer-2004,OCW1,112,Management of Supply Networks for Products and Services
+FSTEM-CS-R4-008,15.S12,Blockchain and Money,masters,computer_science,15.s12-fall-2018,OCW1,324,Blockchain and Money
+FSTEM-CS-R4-009,6.436J,Fundamentals of Probability,masters,computer_science,6.436j-fall-2018,OCW1,154,Fundamentals of Probability
+FSTEM-CS-R4-010,6.438,Algorithms for Inference,masters,computer_science,6.438-fall-2014,ocwundergr,168,Algorithms for Inference
+FSTEM-CS-R4-011,6.830,Database Systems,masters,computer_science,6.830-fall-2010,OCW1,270,Database Systems
+FSTEM-CS-R4-012,6.858,Computer Systems Security,masters,computer_science,6.858-fall-2014,OCW1,440,Computer Systems Security
+FSTEM-CS-R4-013,6.864,Advanced Natural Language Processing,masters,computer_science,6.864-fall-2005,OCW1,150,Advanced Natural Language Processing
+FSTEM-CS-R4-014,6.867,Machine Learning,masters,computer_science,6.867-fall-2006,OCW1,211,Machine Learning
+FSTEM-CS-R4-015,6.871,Knowledge-Based Applications Systems,masters,computer_science,6.871-spring-2005,OCW1,195,Knowledge-Based Applications Systems
+FSTEM-CS-R4-016,HST.953,"Clinical Data Learning, Visualization, and Deployments",masters,computer_science,hst-953-fall-2024,OCW1,66,"Clinical Data Learning, Visualization, and Deployments"
+FSTEM-CS-R4-017,MAS.963,"Out of Context: A Course on Computer Systems That Adapt To, and Learn From, Context",masters,computer_science,mas.963-fall-2001,OCW1,53,"Out of Context: A Course on Computer Systems That Adapt To, and Learn From, Context"
+FSTEM-CS-R4-018,MAS.S62,Cryptocurrency Engineering and Design,masters,computer_science,mas.s62-spring-2018,OCW1,260,Cryptocurrency Engineering and Design
+FSTEM-ECON-R4-001,14.11,14-11-spring-2006,masters,economics,14-11-spring-2006,OCW1,74,14-11-spring-2006
+FSTEM-ECON-R4-002,14.121,Microeconomic Theory I,masters,economics,14-121-fall-2009,OCW1,63,Microeconomic Theory I
+FSTEM-ECON-R4-003,14.122,Microeconomic Theory II,masters,economics,14-122-fall-2002,OCW1,55,Microeconomic Theory II
+FSTEM-ECON-R4-004,14.123,Microeconomic Theory III,masters,economics,14.123-spring-2015,OCW1,139,Microeconomic Theory III
+FSTEM-ECON-R4-005,14.124,Microeconomic Theory IV,masters,economics,14.124-spring-2017,OCW1,65,Microeconomic Theory IV
+FSTEM-ECON-R4-006,14.126,Game Theory,masters,economics,14-126-spring-2024,OCW1,59,Game Theory
+FSTEM-ECON-R4-007,14.147,Topics in Game Theory,masters,economics,14.147-fall-2009,OCW1,58,Topics in Game Theory
+FSTEM-ECON-R4-008,14.271,Industrial Organization I,masters,economics,14.271-fall-2022,OCW1,256,Industrial Organization I
+FSTEM-ECON-R4-009,14.310X,Data Analysis for Social Scientists,masters,economics,14.310x-spring-2023,OCW1,224,Data Analysis for Social Scientists
+FSTEM-ECON-R4-010,14.33,14-33-spring-2012,masters,economics,14-33-spring-2012,OCW1,83,14-33-spring-2012
+FSTEM-ECON-R4-011,14.381,Statistical Method in Economics,masters,economics,14-381-fall-2013,OCW1,135,Statistical Method in Economics
+FSTEM-ECON-R4-012,14.382,Econometrics,masters,economics,14.382-spring-2017,OCW1,149,Econometrics
+FSTEM-ECON-R4-013,14.451,Dynamic Optimization Methods with Applications,masters,economics,14-451-spring-2007,OCW1,70,Dynamic Optimization Methods with Applications
+FSTEM-ECON-R4-014,14.452,Economic Growth,masters,economics,14.452-fall-2016,OCW1,86,Economic Growth
+FSTEM-ECON-R4-015,14.453,Macroeconomic Theory III,masters,economics,14-453-fall-2006,OCW1,66,Macroeconomic Theory III
+FSTEM-ECON-R4-016,14.454,Economic Crises,masters,economics,14.454-spring-2011,OCW1,70,Economic Crises
+FSTEM-ECON-R4-017,14.461,Advanced Macroeconomics I,masters,economics,14-461-fall-2012,OCW1,72,Advanced Macroeconomics I
+FSTEM-ECON-R4-018,14.462,Advanced Macroeconomics II,masters,economics,14.462-spring-2007,OCW1,101,Advanced Macroeconomics II
+FSTEM-ECON-R4-019,14.770,Introduction to Political Economy,masters,economics,14.770-fall-2017,OCW1,159,Introduction to Political Economy
+FSTEM-ECON-R4-020,14.771,Development Economics,masters,economics,14.771-fall-2021,OCW1,274,Development Economics
+FSTEM-ECON-R4-021,14.772,Development Economics: Macroeconomics,masters,economics,14.772-spring-2013,OCW1,177,Development Economics: Macroeconomics
+FSTEM-ECON-R4-022,15.023J,"Global Climate Change: Economics, Science, and Policy",masters,economics,15.023j-spring-2008,OCW1,113,"Global Climate Change: Economics, Science, and Policy"
+FSTEM-ECON-R4-023,15.483,"Consumer Finance: Markets, Product Design, and FinTech",masters,economics,15.483-spring-2018,OCW1,91,"Consumer Finance: Markets, Product Design, and FinTech"
+FSTEM-ECON-R4-024,ESD.933,Technology Policy Negotiations and Dispute Resolution,masters,economics,esd.933-spring-2005,OCW1,55,Technology Policy Negotiations and Dispute Resolution
+FSTEM-ENG-R4-001,1.201J,Transportation Systems Analysis: Demand and Economics,masters,engineering,1.201j-fall-2008,OCW1,127,Transportation Systems Analysis: Demand and Economics
+FSTEM-ENG-R4-002,1.203J,Logistical and Transportation Planning Methods,masters,engineering,1.203j-fall-2006,OCW1,181,Logistical and Transportation Planning Methods
+FSTEM-ENG-R4-003,1.206J,Airline Schedule Planning,masters,engineering,1.206j-spring-2003,OCW1,111,Airline Schedule Planning
+FSTEM-ENG-R4-004,1.212J,An Introduction to Intelligent Transportation Systems,masters,engineering,1.212j-spring-2005,OCW1,114,An Introduction to Intelligent Transportation Systems
+FSTEM-ENG-R4-005,1.221J,Transportation Systems,masters,engineering,1.221j-fall-2004,OCW1,173,Transportation Systems
+FSTEM-ENG-R4-006,1.224J,Carrier Systems,masters,engineering,1.224j-fall-2003,OCW1,105,Carrier Systems
+FSTEM-ENG-R4-007,1.225J,Transportation Flow Systems,masters,engineering,1.225j-fall-2002,OCW1,117,Transportation Flow Systems
+FSTEM-ENG-R4-008,1.253J,Transportation Policy and Environmental Limits,masters,engineering,1.253j-spring-2004,OCW1,76,Transportation Policy and Environmental Limits
+FSTEM-ENG-R4-009,1.259J,Transit Management,masters,engineering,1.259j-fall-2006,OCW1,118,Transit Management
+FSTEM-ENG-R4-010,1.264J,"Database, Internet, and Systems Integration Technologies",masters,engineering,1.264j-fall-2013,OCW1,335,"Database, Internet, and Systems Integration Technologies"
+FSTEM-ENG-R4-011,1.46,Strategic Management in the Design and Construction Value Chain,masters,engineering,1.46-fall-2003,OCW1,78,Strategic Management in the Design and Construction Value Chain
+FSTEM-ENG-R4-012,1.463J,The Impact of Globalization on the Built Environment,masters,engineering,1.463j-fall-2009,OCW1,74,The Impact of Globalization on the Built Environment
+FSTEM-ENG-R4-013,10.805J,"Technology, Law, and the Working Environment",masters,engineering,10.805j-spring-2006,OCW1,29,"Technology, Law, and the Working Environment"
+FSTEM-ENG-R4-014,15.057,Systems Optimization,masters,engineering,15.057-spring-2003,OCW1,141,Systems Optimization
+FSTEM-ENG-R4-015,15.082J,Network Optimization,masters,engineering,15.082j-fall-2010,OCW1,230,Network Optimization
+FSTEM-ENG-R4-016,15.136J,Principles and Practice of Drug Development,masters,engineering,15.136j-fall-2013,OCW1,73,Principles and Practice of Drug Development
+FSTEM-ENG-R4-017,15.760A,Operations Management,masters,engineering,15.760a-spring-2002,OCW1,76,Operations Management
+FSTEM-ENG-R4-018,15.760B,Introduction to Operations Management,masters,engineering,15.760b-spring-2004,OCW1,79,Introduction to Operations Management
+FSTEM-ENG-R4-019,15.762J,Supply Chain Planning,masters,engineering,15.762j-spring-2011,OCW1,35,Supply Chain Planning
+FSTEM-ENG-R4-020,15.763J,Manufacturing System and Supply Chain Design,masters,engineering,15.763j-spring-2005,OCW1,122,Manufacturing System and Supply Chain Design
+FSTEM-ENG-R4-021,15.764,The Theory of Operations Management,masters,engineering,15.764-spring-2004,OCW1,78,The Theory of Operations Management
+FSTEM-ENG-R4-022,15.783J,Product Design and Development,masters,engineering,15.783j-spring-2006,OCW1,115,Product Design and Development
+FSTEM-ENG-R4-023,15.792J,Proseminar in Manufacturing,masters,engineering,15.792j-fall-2005,OCW1,28,Proseminar in Manufacturing
+FSTEM-ENG-R4-024,15.795,Seminar in Operations Management,masters,engineering,15.795-fall-2002,OCW1,44,Seminar in Operations Management
+FSTEM-ENG-R4-025,15.871,Introduction to System Dynamics,masters,engineering,15.871-fall-2013,OCW1,103,Introduction to System Dynamics
+FSTEM-ENG-R4-026,15.872,System Dynamics II,masters,engineering,15.872-fall-2013,OCW1,78,System Dynamics II
+FSTEM-ENG-R4-027,15.965,Technology Strategy for System Design and Management,masters,engineering,15.965-spring-2009,OCW1,99,Technology Strategy for System Design and Management
+FSTEM-ENG-R4-028,15.980J,Organizing for Innovative Product Development,masters,engineering,15.980j-spring-2007,OCW1,67,Organizing for Innovative Product Development
+FSTEM-ENG-R4-029,16.355J,Software Engineering Concepts,masters,engineering,16.355j-fall-2005,OCW1,94,Software Engineering Concepts
+FSTEM-ENG-R4-030,16.423J,Aerospace Biomedical and Life Support Engineering,masters,engineering,16.423j-spring-2006,OCW1,200,Aerospace Biomedical and Life Support Engineering
+FSTEM-ENG-R4-031,16.842,Fundamentals of Systems Engineering,masters,engineering,16.842-fall-2015,OCW1,299,Fundamentals of Systems Engineering
+FSTEM-ENG-R4-032,16.852J,Integrating the Lean Enterprise,masters,engineering,16.852j-fall-2005,OCW1,117,Integrating the Lean Enterprise
+FSTEM-ENG-R4-033,16.863J,System Safety,masters,engineering,16.863j-spring-2016,OCW1,74,System Safety
+FSTEM-ENG-R4-034,16.885J,Aircraft Systems Engineering,masters,engineering,16.885j-fall-2005,OCW1,424,Aircraft Systems Engineering
+FSTEM-ENG-R4-035,16.891J,Space Policy Seminar,masters,engineering,16.891j-spring-2003,OCW1,113,Space Policy Seminar
+FSTEM-ENG-R4-036,16.892J,Space System Architecture and Design,masters,engineering,16.892j-fall-2004,OCW1,168,Space System Architecture and Design
+FSTEM-ENG-R4-037,16.89J,Space Systems Engineering,masters,engineering,16.89j-spring-2007,OCW1,97,Space Systems Engineering
+FSTEM-ENG-R4-038,2.75,Precision Machine Design,masters,engineering,2.75-fall-2001,OCW1,138,Precision Machine Design
+FSTEM-ENG-R4-039,2.830J,Control of Manufacturing Processes (SMA 6303),masters,engineering,2.830j-spring-2008,OCW1,553,Control of Manufacturing Processes (SMA 6303)
+FSTEM-ENG-R4-040,2.852,Manufacturing Systems Analysis,masters,engineering,2.852-spring-2010,OCW1,63,Manufacturing Systems Analysis
+FSTEM-ENG-R4-041,2.854,Introduction to Manufacturing Systems,masters,engineering,2.854-fall-2016,OCW1,103,Introduction to Manufacturing Systems
+FSTEM-ENG-R4-042,2.875,Mechanical Assembly and Its Role in Product Development,masters,engineering,2.875-fall-2004,OCW1,78,Mechanical Assembly and Its Role in Product Development
+FSTEM-ENG-R4-043,22.312,Engineering of Nuclear Reactors,masters,engineering,22.312-fall-2015,OCW1,147,Engineering of Nuclear Reactors
+FSTEM-ENG-R4-044,22.812J,Managing Nuclear Technology,masters,engineering,22.812j-spring-2004,OCW1,152,Managing Nuclear Technology
+FSTEM-ENG-R4-045,ESD.10,Introduction to Technology and Policy,masters,engineering,esd.10-fall-2006,OCW1,161,Introduction to Technology and Policy
+FSTEM-ENG-R4-046,ESD.123J,Systems Perspectives on Industrial Ecology,masters,engineering,esd.123j-spring-2006,OCW1,74,Systems Perspectives on Industrial Ecology
+FSTEM-ENG-R4-047,ESD.141,Technology Policy Negotiations,masters,engineering,esd.141-spring-2006,OCW1,52,Technology Policy Negotiations
+FSTEM-ENG-R4-048,ESD.273J,Logistics and Supply Chain Management,masters,engineering,esd.273j-fall-2009,OCW1,47,Logistics and Supply Chain Management
+FSTEM-ENG-R4-049,ESD.290,Special Topics in Supply Chain Management,masters,engineering,esd.290-spring-2005,OCW1,264,Special Topics in Supply Chain Management
+FSTEM-ENG-R4-050,ESD.33,Systems Engineering,masters,engineering,esd.33-summer-2004,OCW1,104,Systems Engineering
+FSTEM-ENG-R4-051,ESD.34,System Architecture,masters,engineering,esd.34-january-iap-2007,OCW1,81,System Architecture
+FSTEM-ENG-R4-052,ESD.342,Advanced System Architecture,masters,engineering,esd.342-spring-2006,OCW1,289,Advanced System Architecture
+FSTEM-ENG-R4-053,ESD.36,System Project Management,masters,engineering,esd.36-fall-2012,OCW1,98,System Project Management
+FSTEM-ENG-R4-054,ESD.57,Technology-based Business Transformation,masters,engineering,esd.57-fall-2007,OCW1,50,Technology-based Business Transformation
+FSTEM-ENG-R4-055,ESD.60,Lean/Six Sigma Processes,masters,engineering,esd.60-summer-2004,OCW1,113,Lean/Six Sigma Processes
+FSTEM-ENG-R4-056,ESD.69,Seminar on Health Care Systems Innovation,masters,engineering,esd.69-fall-2010,OCW1,47,Seminar on Health Care Systems Innovation
+FSTEM-ENG-R4-057,ESD.70J,Engineering Economy Module,masters,engineering,esd.70j-fall-2009,OCW1,72,Engineering Economy Module
+FSTEM-ENG-R4-058,ESD.932,Technology Policy Organizations,masters,engineering,esd.932-spring-2006,OCW1,84,Technology Policy Organizations
+FSTEM-ENG-R4-059,ESD.S51,Systems Leadership and Management Praxis,masters,engineering,esd.s51-summer-2014,OCW1,61,Systems Leadership and Management Praxis
+FSTEM-ENG-R4-060,IDS.333,IDS.333 Risk and Decision Analysis,masters,engineering,ids.333-fall-2021,OCW1,313,IDS.333 Risk and Decision Analysis
+FSTEM-ENG-R4-061,IDS.338J,Multidisciplinary System Design Optimization,masters,engineering,ids.338j-spring-2010,OCW1,192,Multidisciplinary System Design Optimization
+FSTEM-ENG-R4-062,IDS.410J,Modeling and Assessment for Policy,masters,engineering,ids.410j-spring-2013,OCW1,206,Modeling and Assessment for Policy
+FSTEM-ENG-R4-063,IDS.505J,"Engineering, Economics and Regulation of the Electric Power Sector",masters,engineering,ids.505j-spring-2010,OCW1,138,"Engineering, Economics and Regulation of the Electric Power Sector"
+FSTEM-ENG-R4-064,IDS.720J,Tools for Analysis: Design for Real Estate and Infrastructure Development,masters,engineering,ids.720j-spring-2010,OCW1,48,Tools for Analysis: Design for Real Estate and Infrastructure Development
+FSTEM-ENG-R4-065,IDS.900,Doctoral Seminar in Engineering Systems,masters,engineering,ids.900-fall-2011,OCW1,101,Doctoral Seminar in Engineering Systems
+FSTEM-ENG-R4-066,RES.ENV-007,Geothermal Energy Networks: Transforming Our Thermal Energy System,masters,engineering,res.env-007-iap-2025,OCW1,262,Geothermal Energy Networks: Transforming Our Thermal Energy System
+FSTEM-FIN-R4-001,15.225,Economy and Business in Modern China and India,masters,finance,15.225-spring-2008,OCW1,42,Economy and Business in Modern China and India
+FSTEM-FIN-R4-002,15.361,Executing Strategy for Results,masters,finance,15.361-fall-2017,OCW1,34,Executing Strategy for Results
+FSTEM-FIN-R4-003,15.401,Finance Theory I,masters,finance,15.401-fall-2008,OCW1,460,Finance Theory I
+FSTEM-FIN-R4-004,15.402,Finance Theory II,masters,finance,15.402-spring-2003,OCW1,114,Finance Theory II
+FSTEM-FIN-R4-005,15.414,Financial Management,masters,finance,15.414-summer-2003,OCW1,119,Financial Management
+FSTEM-FIN-R4-006,15.431,Entrepreneurial Finance,masters,finance,15.431-spring-2011,OCW1,58,Entrepreneurial Finance
+FSTEM-FIN-R4-007,15.433,Investments,masters,finance,15.433-spring-2003,OCW1,139,Investments
+FSTEM-FIN-R4-008,15.511,Financial Accounting,masters,finance,15.511-summer-2004,OCW1,112,Financial Accounting
+FSTEM-FIN-R4-009,15.617,The Law of Corporate Finance and Financial Markets,masters,finance,15.617-spring-2004,OCW1,86,The Law of Corporate Finance and Financial Markets
+FSTEM-FIN-R4-010,15.997,Practice of Finance: Advanced Corporate Risk Management,masters,finance,15.997-spring-2009,OCW1,88,Practice of Finance: Advanced Corporate Risk Management
+FSTEM-FIN-R4-011,15.S21,Nuts and Bolts of Business Plans,masters,finance,15.s21-january-iap-2014,OCW1,896,Nuts and Bolts of Business Plans
+FSTEM-FIN-R4-012,IDS.910,Leadership Development,masters,finance,ids.910-fall-2014,OCW1,47,Leadership Development
+FSTEM-HIST-R4-001,21H.952J,Readings in American History Since 1877,masters,history,21h.952j-fall-2003,ocwwestcivGrad,41,Readings in American History Since 1877
+FSTEM-HIST-R4-002,21H.991,Theories and Methods in the Study of History,masters,history,21h.991-fall-2010,ocwwestcivGrad,82,Theories and Methods in the Study of History
+FSTEM-HIST-R4-003,ESD.68J,Communications and Information Policy,masters,history,esd.68j-spring-2006,OCW1,127,Communications and Information Policy
+FSTEM-LIT-R4-001,15.761,Introduction to Operations Management,masters,literature,15.761-spring-2013,OCW1,53,Introduction to Operations Management
+FSTEM-MATH-R4-001,15.060,"Data, Models, and Decisions",masters,mathematics,15.060-fall-2014,OCW1,152,"Data, Models, and Decisions"
+FSTEM-MATH-R4-002,15.066J,System Optimization and Analysis for Manufacturing,masters,mathematics,15.066j-summer-2003,OCW1,170,System Optimization and Analysis for Manufacturing
+FSTEM-MATH-R4-003,15.071,The Analytics Edge,masters,mathematics,15.071-spring-2017,OCW1,8854,The Analytics Edge
+FSTEM-MATH-R4-004,15.450,Analytics of Finance,masters,mathematics,15.450-fall-2010,OCW1,120,Analytics of Finance
+FSTEM-MATH-R4-005,15.879,Research Seminar in System Dynamics,masters,mathematics,15.879-spring-2014,OCW1,81,Research Seminar in System Dynamics
+FSTEM-MATH-R4-006,18.086,Mathematical Methods for Engineers II,masters,mathematics,18.086-spring-2006,OCW1,411,Mathematical Methods for Engineers II
+FSTEM-MATH-R4-007,18.305,Advanced Analytic Methods in Science and Engineering,masters,mathematics,18.305-fall-2004,OCW1,75,Advanced Analytic Methods in Science and Engineering
+FSTEM-MATH-R4-008,18.409,Algorithmic Aspects of Machine Learning,masters,mathematics,18.409-spring-2015,OCW1,79,Algorithmic Aspects of Machine Learning
+FSTEM-MATH-R4-009,18.435J,Quantum Computation,masters,mathematics,18.435j-fall-2003,OCW1,144,Quantum Computation
+FSTEM-MATH-R4-010,18.655,Mathematical Statistics,masters,mathematics,18.655-spring-2016,OCW1,94,Mathematical Statistics
+FSTEM-MATH-R4-011,18.657,Mathematics of Machine Learning,masters,mathematics,18.657-fall-2015,OCW1,101,Mathematics of Machine Learning
+FSTEM-MATH-R4-012,18.S997,High-Dimensional Statistics,masters,mathematics,18.s997-fall-2012,OCW1,101,High-Dimensional Statistics
+FSTEM-MATH-R4-013,9.520,Statistical Learning Theory and Applications,masters,mathematics,9.520-spring-2003,OCW1,134,Statistical Learning Theory and Applications
+FSTEM-MATH-R4-014,ESD.260J,Logistics Systems,masters,mathematics,esd.260j-fall-2006,OCW1,100,Logistics Systems
+FSTEM-MATH-R4-015,ESD.71,Engineering Systems Analysis for Design,masters,mathematics,esd.71-fall-2008,OCW1,66,Engineering Systems Analysis for Design
+FSTEM-MATH-R4-016,ESD.72,Engineering Risk-Benefit Analysis,masters,mathematics,esd.72-spring-2007,OCW1,79,Engineering Risk-Benefit Analysis
+FSTEM-MATH-R4-017,ESD.86,"Models, Data and Inference for Socio-Technical Systems",masters,mathematics,esd.86-spring-2007,OCW1,184,"Models, Data and Inference for Socio-Technical Systems"
+FSTEM-MATH-R4-018,HST.947,Medical Artificial Intelligence,masters,mathematics,hst.947-spring-2005,OCW1,111,Medical Artificial Intelligence
+FSTEM-MATH-R4-019,RES.9-0002,Statistics and Visualization for Data Analysis and Inference,masters,mathematics,res.9-0002-january-iap-2009,OCW1,24,Statistics and Visualization for Data Analysis and Inference
+FSTEM-PHIL-R4-001,15.228,MBA Study Tour: Innovation Islands - How New Zealand Became A Global Player in the Race to Innovate,masters,philosophy,15.228-spring-2016,OCW1,82,MBA Study Tour: Innovation Islands - How New Zealand Became A Global Player in the Race to Innovate
+FSTEM-PHIL-R4-002,15.281,Advanced Communication for Leaders,masters,philosophy,15.281-spring-2016,OCW1,67,Advanced Communication for Leaders
+FSTEM-PHIL-R4-003,RES.10-002,Ethics of AI Bias,masters,philosophy,res.10-002-spring-2023,OCW1,61,Ethics of AI Bias
+FSTEM-POL-R4-001,17.100J,Political Economy I,masters,politics,17.100j-spring-2016,ocwwestcivGrad,51,Political Economy I
+FSTEM-POL-R4-002,17.408,Chinese Foreign Policy,masters,politics,17.408-fall-2013,OCW1,49,Chinese Foreign Policy
+FSTEM-STS-R4-001,11.127J,Computer Games and Simulations for Education and Exploration,masters,society_technology,11.127j-spring-2015,OCW1,107,Computer Games and Simulations for Education and Exploration
+FSTEM-STS-R4-002,11.304J,Site and Infrastructure Systems Planning,masters,society_technology,11.304j-spring-2009,OCW1,58,Site and Infrastructure Systems Planning
+FSTEM-STS-R4-003,11.423,Information and Communication Technologies in Community Development,masters,society_technology,11.423-spring-2004,OCW1,142,Information and Communication Technologies in Community Development
+FSTEM-STS-R4-004,11.438,Economic Development Planning,masters,society_technology,11.438-spring-2020,OCW1,102,Economic Development Planning
+FSTEM-STS-R4-005,11.481J,Analyzing and Accounting for Regional Economic Growth,masters,society_technology,11.481j-spring-2009,OCW1,140,Analyzing and Accounting for Regional Economic Growth
+FSTEM-STS-R4-006,11.482J,Regional Socioeconomic Impact Analyses and Modeling,masters,society_technology,11.482j-fall-2008,OCW1,54,Regional Socioeconomic Impact Analyses and Modeling
+FSTEM-STS-R4-007,11.943J,"Urban Transportation, Land Use, and the Environment",masters,society_technology,11.943j-spring-2002,OCW1,143,"Urban Transportation, Land Use, and the Environment"
+FSTEM-STS-R4-008,11.952,Gaoming Studio - China,masters,society_technology,11.952-spring-2005,OCW1,49,Gaoming Studio - China
+FSTEM-STS-R4-009,21A.859J,Social Theory and Analysis,masters,society_technology,21a.859j-spring-2021,ocwwestcivGrad,56,Social Theory and Analysis
+FSTEM-STS-R4-010,STS.310,History of Science,masters,society_technology,sts.310-fall-2015,ocwwestcivGrad,25,History of Science
+FSTEM-STS-R4-011,STS.330,History and Anthropology of Medicine and Biology,masters,society_technology,sts.330-spring-2013,ocwwestcivGrad,52,History and Anthropology of Medicine and Biology
+FSTEM-STS-R4-012,STS.340J,Introduction to the History of Technology,masters,society_technology,sts.340j-fall-2006,OCW1,41,Introduction to the History of Technology
+FSTEM-STS-R4-013,STS.350,Social Study of Science and Technology,masters,society_technology,sts.350-spring-2004,ocwwestcivGrad,38,Social Study of Science and Technology
+FSTEM-STS-R4-014,STS.360,Ethnography,masters,society_technology,sts.360-spring-2003,ocwwestcivGrad,57,Ethnography
+FSTEM-STS-R4-015,STS.427,"The Civil War and the Emergence of Modern America, 1861-1890",masters,society_technology,sts.427-spring-2015,ocwwestcivGrad,56,"The Civil War and the Emergence of Modern America, 1861-1890"
+FSTEM-STS-R4-016,STS.428,Technology and Change in Rural America,masters,society_technology,sts.428-fall-2004,OCW1,29,Technology and Change in Rural America
+FSTEM-STS-R4-017,STS.436,Cold War Science,masters,society_technology,sts.436-fall-2008,ocwwestcivGrad,29,Cold War Science
+FSTEM-STS-R4-018,STS.460,"Histories of Information, Communication, and Computing Technologies",masters,society_technology,sts.460-spring-2015,ocwwestcivGrad,35,"Histories of Information, Communication, and Computing Technologies"
+FSTEM-STS-R4-019,STS.462,Social and Political Implications of Technology,masters,society_technology,sts.462-spring-2006,ocwwestcivGrad,41,Social and Political Implications of Technology
+FSTEM-STS-R4-020,STS.464,Technology and the Literary Imagination,masters,society_technology,sts.464-spring-2008,ocwwestcivGrad,69,Technology and the Literary Imagination
+FSTEM-STS-R4-021,STS.471J,Engineering Apollo: The Moon Project as a Complex System,masters,society_technology,sts.471j-spring-2007,OCW1,214,Engineering Apollo: The Moon Project as a Complex System
+FSTEM-ARTS-R3-001,21M.011,Introduction to Western Music,undergraduate,arts,21m.011-fall-2024,ocwwesternCIV,1175,Introduction to Western Music
+FSTEM-ARTS-R3-002,21M.220,Early Music,undergraduate,arts,21m.220-fall-2010,ocwwesternCIV,199,Early Music
+FSTEM-ARTS-R3-003,21M.269,Studies in Western Music History: Quantitative and Computational Approaches to Music History,undergraduate,arts,21m.269-spring-2012,ocwwesternCIV,69,Studies in Western Music History: Quantitative and Computational Approaches to Music History
+FSTEM-ARTS-R3-004,21M.350,Musical Analysis,undergraduate,arts,21m.350-spring-2008,ocwwesternCIV,55,Musical Analysis
+FSTEM-ARTS-R3-005,4.111,Introduction to Architecture & Environmental Design,undergraduate,arts,4.111-spring-2014,OCW1,269,Introduction to Architecture & Environmental Design
+FSTEM-ARTS-R3-006,4.605,Introduction to the History and Theory of Architecture,undergraduate,arts,4.605-spring-2012,ocwwestcivGrad,159,Introduction to the History and Theory of Architecture
+FSTEM-ARTS-R3-007,CMS.608,Game Design,undergraduate,arts,cms.608-fall-2010,OCW1,311,Game Design
+FSTEM-CS-R3-001,15.565J,Integrating eSystems & Global Information Systems,undergraduate,computer_science,15.565j-spring-2002,OCW1,135,Integrating eSystems & Global Information Systems
+FSTEM-CS-R3-002,6.0002,Introduction to Computational Thinking and Data Science,undergraduate,computer_science,6.0002-fall-2016,ocwundergr,278,Introduction to Computational Thinking and Data Science
+FSTEM-CS-R3-003,6.002,Circuits and Electronics,undergraduate,computer_science,6.002-spring-2007,OCW1,541,Circuits and Electronics
+FSTEM-CS-R3-004,6.003,Signals and Systems,undergraduate,computer_science,6.003-fall-2011,OCW1,470,Signals and Systems
+FSTEM-CS-R3-005,6.004,Computation Structures,undergraduate,computer_science,6.004-spring-2009,ocwundergr,366,Computation Structures
+FSTEM-CS-R3-006,6.006,Introduction to Algorithms,undergraduate,computer_science,6.006-spring-2008,OCW1,274,Introduction to Algorithms
+FSTEM-CS-R3-007,6.007,Electromagnetic Energy: From Motors to Lasers,undergraduate,computer_science,6.007-spring-2011,OCW1,372,Electromagnetic Energy: From Motors to Lasers
+FSTEM-CS-R3-008,6.013,Electromagnetics and Applications,undergraduate,computer_science,6.013-spring-2009,OCW1,211,Electromagnetics and Applications
+FSTEM-CS-R3-009,6.033,Computer System Engineering,undergraduate,computer_science,6.033-spring-2018,OCW1,1273,Computer System Engineering
+FSTEM-CS-R3-010,6.034,Artificial Intelligence,undergraduate,computer_science,6.034-fall-2010,OCW1,557,Artificial Intelligence
+FSTEM-CS-R3-011,6.041,Probabilistic Systems Analysis and Applied  Probability,undergraduate,computer_science,6.041-spring-2006,OCW1,421,Probabilistic Systems Analysis and Applied  Probability
+FSTEM-CS-R3-012,6.041SC,Probabilistic Systems Analysis and Applied Probability,undergraduate,computer_science,6.041sc-fall-2013,OCW1,3321,Probabilistic Systems Analysis and Applied Probability
+FSTEM-CS-R3-013,6.042J,Mathematics for Computer Science,undergraduate,computer_science,6.042j-fall-2005,OCW1,353,Mathematics for Computer Science
+FSTEM-CS-R3-014,6.045J,"Automata, Computability, and Complexity",undergraduate,computer_science,6.045j-spring-2011,ocwundergr,94,"Automata, Computability, and Complexity"
+FSTEM-CS-R3-015,6.046J,Introduction to Algorithms (SMA 5503),undergraduate,computer_science,6.046j-fall-2005,ocwundergr,477,Introduction to Algorithms (SMA 5503)
+FSTEM-CS-R3-016,6.061,Introduction to Electric Power Systems,undergraduate,computer_science,6.061-spring-2011,OCW1,117,Introduction to Electric Power Systems
+FSTEM-CS-R3-017,6.079,Introduction to Convex Optimization,undergraduate,computer_science,6.079-fall-2009,ocwundergr,140,Introduction to Convex Optimization
+FSTEM-CS-R3-018,6.7960,Deep Learning,undergraduate,computer_science,6.7960-fall-2024,OCW1,224,Deep Learning
+FSTEM-CS-R3-019,6.901,Inventions and Patents,undergraduate,computer_science,6.901-fall-2005,OCW1,168,Inventions and Patents
+FSTEM-CS-R3-020,CMS.595,"Learning, Media, and Technology",undergraduate,computer_science,cms-595-spring-2024,OCW1,156,"Learning, Media, and Technology"
+FSTEM-ECON-R3-001,14.01,Principles of Microeconomics,undergraduate,economics,14.01-fall-2023,OCW1,279,Principles of Microeconomics
+FSTEM-ECON-R3-002,14.01SC,Principles of Microeconomics,undergraduate,economics,14.01sc-fall-2011,OCW1,1470,Principles of Microeconomics
+FSTEM-ECON-R3-003,14.02,Principles of Macroeconomics,undergraduate,economics,14.02-Spring-2023,OCW1,126,Principles of Macroeconomics
+FSTEM-ECON-R3-004,14.03,Microeconomic Theory and Public Policy,undergraduate,economics,14.03-fall-2016,OCW1,198,Microeconomic Theory and Public Policy
+FSTEM-ECON-R3-005,14.04,Intermediate Microeconomic Theory,undergraduate,economics,14.04-fall-2020,OCW1,147,Intermediate Microeconomic Theory
+FSTEM-ECON-R3-006,14.05,Intermediate Macroeconomics,undergraduate,economics,14.05-spring-2013,OCW1,107,Intermediate Macroeconomics
+FSTEM-ECON-R3-007,14.06,Intermediate Macroeconomic Theory,undergraduate,economics,14.06-spring-2004,OCW1,83,Intermediate Macroeconomic Theory
+FSTEM-ECON-R3-008,14.09,Financial Crises,undergraduate,economics,14.09-january-iap-2016,OCW1,47,Financial Crises
+FSTEM-ECON-R3-009,14.12,Economic Applications of Game Theory,undergraduate,economics,14.12-fall-2025,OCW1,153,Economic Applications of Game Theory
+FSTEM-ECON-R3-010,14.13,Psychology and Economics,undergraduate,economics,14.13-spring-2020,OCW1,416,Psychology and Economics
+FSTEM-ECON-R3-011,14.15,Networks,undergraduate,economics,14.15-spring-2022,OCW1,114,Networks
+FSTEM-ECON-R3-012,14.16,Strategy and Information,undergraduate,economics,14.16-spring-2016,OCW1,43,Strategy and Information
+FSTEM-ECON-R3-013,14.30,Introduction to Statistical Method in Economics,undergraduate,economics,14.30-spring-2006,OCW1,218,Introduction to Statistical Method in Economics
+FSTEM-ECON-R3-014,14.32,Econometrics,undergraduate,economics,14.32-spring-2007,ocwundergr,77,Econometrics
+FSTEM-ECON-R3-015,14.41,Public Finance and Public Policy,undergraduate,economics,14.41-Fall-2024,OCW1,597,Public Finance and Public Policy
+FSTEM-ECON-R3-016,14.44,Energy Economics,undergraduate,economics,14-44-spring-2007,OCW1,68,Energy Economics
+FSTEM-ECON-R3-017,14.75,Political Economy and Economic Development,undergraduate,economics,14.75-fall-2012,OCW1,116,Political Economy and Economic Development
+FSTEM-ENG-R3-001,1.017,Computing and Data Analysis for Environmental Applications,undergraduate,engineering,1.017-fall-2003,ocwundergr,234,Computing and Data Analysis for Environmental Applications
+FSTEM-ENG-R3-002,1.040,Project Management,undergraduate,engineering,1.040-spring-2004,OCW1,99,Project Management
+FSTEM-ENG-R3-003,10.01,Ethics for Engineers: Artificial Intelligence,undergraduate,engineering,,,0,Ethics for Engineers: Artificial Intelligence
+FSTEM-ENG-R3-004,15.031J,"Energy Decisions, Markets, and Policies",undergraduate,engineering,15.031j-spring-2012,ocwundergr,380,"Energy Decisions, Markets, and Policies"
+FSTEM-ENG-R3-005,16.001,Unified Engineering: Materials and Structures,undergraduate,engineering,16.001-fall-2021,OCW1,202,Unified Engineering: Materials and Structures
+FSTEM-ENG-R3-006,16.63J,System Safety,undergraduate,engineering,16.63j-spring-2016,OCW1,74,System Safety
+FSTEM-ENG-R3-007,16.660J,Introduction to Lean Six Sigma Methods,undergraduate,engineering,16.660j-january-iap-2012,OCW1,319,Introduction to Lean Six Sigma Methods
+FSTEM-ENG-R3-008,16.810,Engineering Design and Rapid Prototyping,undergraduate,engineering,16.810-january-iap-2005,OCW1,258,Engineering Design and Rapid Prototyping
+FSTEM-ENG-R3-009,2.003SC,Engineering Dynamics,undergraduate,engineering,2.003sc-fall-2011,OCW1,3260,Engineering Dynamics
+FSTEM-ENG-R3-010,2.007,Design and Manufacturing I,undergraduate,engineering,2.007-spring-2009,OCW1,542,Design and Manufacturing I
+FSTEM-ENG-R3-011,2.008,Design and Manufacturing II,undergraduate,engineering,2.008-spring-2025,OCW1,190,Design and Manufacturing II
+FSTEM-ENG-R3-012,2.51,Intermediate Heat and Mass Transfer,undergraduate,engineering,2.51-fall-2008,ocwundergr,46,Intermediate Heat and Mass Transfer
+FSTEM-ENG-R3-013,2.60J,Fundamentals of Advanced Energy Conversion,undergraduate,engineering,2.60j-spring-2020,ocwundergr,137,Fundamentals of Advanced Energy Conversion
+FSTEM-ENG-R3-014,2.72,Elements of Mechanical Design,undergraduate,engineering,2.72-spring-2009,ocwundergr,100,Elements of Mechanical Design
+FSTEM-ENG-R3-015,22.06,Engineering of Nuclear Systems,undergraduate,engineering,22.06-fall-2010,ocwundergr,80,Engineering of Nuclear Systems
+FSTEM-ENG-R3-016,22.081J,Introduction to Sustainable Energy,undergraduate,engineering,22.081j-fall-2010,OCW1,197,Introduction to Sustainable Energy
+FSTEM-ENG-R3-017,22.091,Nuclear Reactor Safety,undergraduate,engineering,22.091-spring-2008,ocwundergr,219,Nuclear Reactor Safety
+FSTEM-ENG-R3-018,8.02,Physics II: Electricity and Magnetism,undergraduate,engineering,8.02-spring-2007,ocwundergr,635,Physics II: Electricity and Magnetism
+FSTEM-ENG-R3-019,8.02T,Electricity and Magnetism,undergraduate,engineering,8.02t-spring-2005,ocwundergr,631,Electricity and Magnetism
+FSTEM-ENG-R3-020,8.21,The Physics of Energy,undergraduate,engineering,8.21-fall-2009,ocwundergr,51,The Physics of Energy
+FSTEM-ENG-R3-021,ESD.00,Introduction to Engineering Systems,undergraduate,engineering,esd.00-spring-2011,OCW1,140,Introduction to Engineering Systems
+FSTEM-ENG-R3-022,ESD.04J,Frameworks and Models in Engineering Systems / Engineering System Design,undergraduate,engineering,esd.04j-spring-2007,OCW1,113,Frameworks and Models in Engineering Systems / Engineering System Design
+FSTEM-ENG-R3-023,ESD.051J,Engineering Innovation and Design,undergraduate,engineering,esd.051j-fall-2012,OCW1,179,Engineering Innovation and Design
+FSTEM-CORE-R3-001,15.279,Management Communication for Undergraduates,undergraduate,general_core,15.279-fall-2012,ocwundergr,190,Management Communication for Undergraduates
+FSTEM-HIST-R3-001,20.104J,Chemicals in the Environment: Toxicology and Public Health (BE.104J),undergraduate,history,20.104j-spring-2005,OCW1,152,Chemicals in the Environment: Toxicology and Public Health (BE.104J)
+FSTEM-HIST-R3-002,21H.102,American History Since 1865,undergraduate,history,21h.102-spring-2018,ocwwesternCIV,97,American History Since 1865
+FSTEM-HIST-R3-003,21H.105,American Classics,undergraduate,history,21h.105-spring-2006,ocwwesternCIV,58,American Classics
+FSTEM-HIST-R3-004,21H.152,Modern China,undergraduate,history,21H.152-spring-2021,OCW1,60,Modern China
+FSTEM-HIST-R3-005,21H.161,The Middle East in the 20th Century,undergraduate,history,21h.161-fall-2015,ocwwesternCIV,31,The Middle East in the 20th Century
+FSTEM-HIST-R3-006,21H.221,The Places of Migration in United States History,undergraduate,history,21h.221-fall-2006,ocwwesternCIV,100,The Places of Migration in United States History
+FSTEM-HIST-R3-007,21H.224,Law and Society in US History,undergraduate,history,21h.224-spring-2003,ocwwesternCIV,72,Law and Society in US History
+FSTEM-HIST-R3-008,21H.235,Metropolis: History of New York City,undergraduate,history,21h.235-fall-2009,ocwwesternCIV,35,Metropolis: History of New York City
+FSTEM-HIST-R3-009,21H.244J,"Imperial and Revolutionary Russia: Culture and Politics, 1700-1917",undergraduate,history,21h.244j-fall-2019,ocwwesternCIV,122,"Imperial and Revolutionary Russia: Culture and Politics, 1700-1917"
+FSTEM-HIST-R3-010,21H.245J,"Soviet and Post-Soviet Politics and Society, 1917 to the Present",undergraduate,history,21h.245j-spring-2016,ocwwesternCIV,97,"Soviet and Post-Soviet Politics and Society, 1917 to the Present"
+FSTEM-HIST-R3-011,21H.301,The Ancient World: Greece,undergraduate,history,21h.301-fall-2004,ocwwesternCIV,76,The Ancient World: Greece
+FSTEM-HIST-R3-012,21H.306,The Emergence of Europe: 500-1300,undergraduate,history,21h.306-fall-2003,ocwwesternCIV,43,The Emergence of Europe: 500-1300
+FSTEM-HIST-R3-013,21H.311,"The Renaissance, 1300-1600",undergraduate,history,21h.311-fall-2004,ocwwesternCIV,65,"The Renaissance, 1300-1600"
+FSTEM-HIST-R3-014,21H.319,"Race, Crime, and Citizenship in American Law",undergraduate,history,21h.319-fall-2014,ocwwesternCIV,69,"Race, Crime, and Citizenship in American Law"
+FSTEM-HIST-R3-015,21H.336,The Making of a Roman Emperor,undergraduate,history,21h.336-spring-2023,ocwwesternCIV,131,The Making of a Roman Emperor
+FSTEM-HIST-R3-016,21H.342,The Royal Family,undergraduate,history,21h.342-fall-2003,ocwwesternCIV,94,The Royal Family
+FSTEM-HIST-R3-017,21H.346,"France, 1660-1815: Enlightenment, Revolution, Napoleon",undergraduate,history,21h.346-spring-2011,ocwwesternCIV,80,"France, 1660-1815: Enlightenment, Revolution, Napoleon"
+FSTEM-HIST-R3-018,21H.383,"Technology and the Global Economy, 1000-2000",undergraduate,history,21h.383-fall-2016,OCW1,120,"Technology and the Global Economy, 1000-2000"
+FSTEM-HIST-R3-019,21H.390,Theories and Methods in the Study of History,undergraduate,history,21h.390-fall-2022,ocwwesternCIV,39,Theories and Methods in the Study of History
+FSTEM-HIST-R3-020,21H.421,Introduction to Environmental History,undergraduate,history,21h.421-spring-2011,ocwwesternCIV,128,Introduction to Environmental History
+FSTEM-HIST-R3-021,21H.433,The Age of Reason: Europe from the 17th to the Early 19th Centuries,undergraduate,history,21h.433-spring-2011,ocwwesternCIV,90,The Age of Reason: Europe from the 17th to the Early 19th Centuries
+FSTEM-HIST-R3-022,21H.443,European Imperialism in the 19th and 20th Centuries,undergraduate,history,21h.443-spring-2006,ocwwesternCIV,38,European Imperialism in the 19th and 20th Centuries
+FSTEM-HIST-R3-023,21H.580,"From the Silk Road to the Great Game: China, Russia, and Central Eurasia",undergraduate,history,21h.580-fall-2003,OCW1,58,"From the Silk Road to the Great Game: China, Russia, and Central Eurasia"
+FSTEM-LIT-R3-001,21G.030,East Asian Culture: From Zen to K-Pop,undergraduate,literature,21g.030-spring-2015,OCW1,54,East Asian Culture: From Zen to K-Pop
+FSTEM-LIT-R3-002,21G.044,Classics of Chinese Literature,undergraduate,literature,21g.044-fall-2011,OCW1,45,Classics of Chinese Literature
+FSTEM-LIT-R3-003,21G.059,European Thought and Culture,undergraduate,literature,21g.059-spring-2008,ocwwestcivGrad,35,European Thought and Culture
+FSTEM-LIT-R3-004,21G.101,Chinese I (Regular),undergraduate,literature,21g.101-fall-2014,ocwundergr,219,Chinese I (Regular)
+FSTEM-LIT-R3-005,21G.102,Chinese II (Regular),undergraduate,literature,21g.102-spring-2015,ocwundergr,73,Chinese II (Regular)
+FSTEM-LIT-R3-006,21G.103,Chinese III (Regular),undergraduate,literature,21g.103-fall-2018,ocwundergr,60,Chinese III (Regular)
+FSTEM-LIT-R3-007,21G.104,Chinese IV (Regular),undergraduate,literature,21g.104-spring-2018,ocwundergr,62,Chinese IV (Regular)
+FSTEM-LIT-R3-008,21G.105,Chinese V (Regular): Chinese Cultures & Society,undergraduate,literature,21g.105-fall-2003,OCW1,73,Chinese V (Regular): Chinese Cultures & Society
+FSTEM-LIT-R3-009,21G.114,Chinese VI (Streamlined),undergraduate,literature,21g.114-spring-2005,OCW1,96,Chinese VI (Streamlined)
+FSTEM-LIT-R3-010,21L.001,Foundations of Western Culture:  Homer to Dante,undergraduate,literature,21l.001-fall-2008,ocwwestcivGrad,49,Foundations of Western Culture:  Homer to Dante
+FSTEM-LIT-R3-011,21L.001X,Foundations of World Culture I: World Civilizations and Texts,undergraduate,literature,21l.001x-fall-2011,ocwwesternCIV,39,Foundations of World Culture I: World Civilizations and Texts
+FSTEM-LIT-R3-012,21L.002,Foundations of Western Culture II,undergraduate,literature,21l.002-fall-2002,ocwwestcivGrad,61,Foundations of Western Culture II
+FSTEM-LIT-R3-013,21L.002-2,Foundations of Western Culture II: Renaissance to Modernity,undergraduate,literature,21l.002-2-spring-2003,ocwwesternCIV,82,Foundations of Western Culture II: Renaissance to Modernity
+FSTEM-LIT-R3-014,21L.004,Reading Poetry: Social Poetics,undergraduate,literature,21l.004-spring-2023,ocwwesternCIV,52,Reading Poetry: Social Poetics
+FSTEM-LIT-R3-015,21L.006,American Literature,undergraduate,literature,21l.006-spring-2013,ocwwesternCIV,44,American Literature
+FSTEM-LIT-R3-016,21L.012,Forms of Western Narrative,undergraduate,literature,21l.012-fall-2007,ocwwesternCIV,47,Forms of Western Narrative
+FSTEM-LIT-R3-017,21L.015,Introduction to Media Studies,undergraduate,literature,21l.015-fall-2003,ocwwesternCIV,60,Introduction to Media Studies
+FSTEM-LIT-R3-018,21L.019,Introduction to European and Latin American Fiction: Great Books on the Page and on the Screen,undergraduate,literature,21l.019-spring-2017,ocwwesternCIV,98,Introduction to European and Latin American Fiction: Great Books on the Page and on the Screen
+FSTEM-LIT-R3-019,21L.420,Literary Studies: The Legacy of England,undergraduate,literature,21l.420-spring-2006,ocwwesternCIV,36,Literary Studies: The Legacy of England
+FSTEM-LIT-R3-020,21L.421,Comedy,undergraduate,literature,21l.421-spring-2008,ocwwesternCIV,63,Comedy
+FSTEM-LIT-R3-021,21L.422,Tragedy,undergraduate,literature,21l.422-fall-2002,ocwwesternCIV,103,Tragedy
+FSTEM-LIT-R3-022,21L.435,"Shakespeare, Film and Media",undergraduate,literature,21l.435-fall-2002,ocwwesternCIV,44,"Shakespeare, Film and Media"
+FSTEM-LIT-R3-023,21L.451,Introduction to Literary Theory,undergraduate,literature,21l.451-fall-2014,ocwwestcivGrad,42,Introduction to Literary Theory
+FSTEM-LIT-R3-024,21L.455,Classical Literature: The Golden Age of Augustan Rome,undergraduate,literature,21l.455-fall-2004,ocwwesternCIV,52,Classical Literature: The Golden Age of Augustan Rome
+FSTEM-LIT-R3-025,21L.458,The Bible,undergraduate,literature,21l.458-spring-2007,ocwwestcivGrad,51,The Bible
+FSTEM-LIT-R3-026,21L.460,Medieval Literature: Legends of Arthur,undergraduate,literature,21l.460-fall-2013,ocwwestcivGrad,68,Medieval Literature: Legends of Arthur
+FSTEM-LIT-R3-027,21L.471,Major English Novels,undergraduate,literature,21l.471-spring-2004,ocwwestcivGrad,40,Major English Novels
+FSTEM-LIT-R3-028,21L.472,Major European Novels,undergraduate,literature,21l.472-fall-2008,ocwwestcivGrad,46,Major European Novels
+FSTEM-LIT-R3-029,21L.476,Romantic Poetry,undergraduate,literature,21l.476-spring-2005,ocwwesternCIV,28,Romantic Poetry
+FSTEM-LIT-R3-030,21L.486,Modern Drama,undergraduate,literature,21l.486-spring-2006,ocwwesternCIV,59,Modern Drama
+FSTEM-LIT-R3-031,21L.501,The American Novel: Stranger and Stranger,undergraduate,literature,21l.501-spring-2013,ocwwesternCIV,90,The American Novel: Stranger and Stranger
+FSTEM-LIT-R3-032,21L.703,English Renaissance Drama: Theatre and Society in the Age of Shakespeare,undergraduate,literature,21l.703-fall-2003,ocwwesternCIV,56,English Renaissance Drama: Theatre and Society in the Age of Shakespeare
+FSTEM-LIT-R3-033,21L.704,"Studies in Poetry: ""Does Poetry Matter""",undergraduate,literature,21l.704-fall-2002,ocwwestcivGrad,29,"Studies in Poetry: ""Does Poetry Matter"""
+FSTEM-LIT-R3-034,21L.705,Masterworks in American Short Fiction,undergraduate,literature,21l.705-fall-2005,ocwwestcivGrad,48,Masterworks in American Short Fiction
+FSTEM-LIT-R3-035,21L.707,Arthurian Literature and Celtic Colonization,undergraduate,literature,21l.707-spring-2005,ocwwestcivGrad,62,Arthurian Literature and Celtic Colonization
+FSTEM-LIT-R3-036,21L.709,Studies in Literary History: Modernism: From Nietzsche to Fellini,undergraduate,literature,21l.709-fall-2010,ocwwesternCIV,30,Studies in Literary History: Modernism: From Nietzsche to Fellini
+FSTEM-LIT-R3-037,21W.747,Rhetoric,undergraduate,literature,21w.747-spring-2005,ocwwesternCIV,75,Rhetoric
+FSTEM-LIT-R3-038,21W.747-2,Rhetoric: Rhetoric of Science,undergraduate,literature,21w.747-2-spring-2006,ocwwesternCIV,53,Rhetoric: Rhetoric of Science
+FSTEM-LIT-R3-039,21W.777,The Science Essay,undergraduate,literature,21w.777-spring-2009,ocwundergr,87,The Science Essay
+FSTEM-MATH-R3-001,15.053,Optimization Methods in Management Science,undergraduate,mathematics,15.053-spring-2013,ocwundergr,281,Optimization Methods in Management Science
+FSTEM-MATH-R3-002,15.772J,D-Lab: Supply Chains,undergraduate,mathematics,15.772j-fall-2014,OCW1,110,D-Lab: Supply Chains
+FSTEM-MATH-R3-003,18.01,Single Variable Calculus,undergraduate,mathematics,18.01-fall-2006,OCW1,608,Single Variable Calculus
+FSTEM-MATH-R3-004,18.02,Multivariable Calculus,undergraduate,mathematics,18.02-fall-2007,OCW1,608,Multivariable Calculus
+FSTEM-MATH-R3-005,18.034,Honors Differential Equations,undergraduate,mathematics,18.034-spring-2009,ocwundergr,209,Honors Differential Equations
+FSTEM-MATH-R3-006,18.04,Complex Variables with Applications,undergraduate,mathematics,18.04-spring-2018,OCW1,248,Complex Variables with Applications
+FSTEM-MATH-R3-007,18.05,Introduction to Probability and Statistics,undergraduate,mathematics,18.05-spring-2022,OCW1,1014,Introduction to Probability and Statistics
+FSTEM-MATH-R3-008,18.06,Linear Algebra,undergraduate,mathematics,18.06-spring-2010,OCW1,579,Linear Algebra
+FSTEM-MATH-R3-009,18.065,"Matrix Methods in Data Analysis, Signal Processing, and Machine Learning",undergraduate,mathematics,18.065-spring-2018,OCW1,437,"Matrix Methods in Data Analysis, Signal Processing, and Machine Learning"
+FSTEM-MATH-R3-010,18.100A,Real Analysis,undergraduate,mathematics,18-100a-fall-2020,OCW1,281,Real Analysis
+FSTEM-MATH-R3-011,18.100B,Analysis I,undergraduate,mathematics,18.100b-fall-2010,OCW1,130,Analysis I
+FSTEM-MATH-R3-012,18.330,Introduction to Numerical Analysis,undergraduate,mathematics,18.330-spring-2012,OCW1,73,Introduction to Numerical Analysis
+FSTEM-MATH-R3-013,18.440,Probability and Random Variables,undergraduate,mathematics,18.440-spring-2014,OCW1,210,Probability and Random Variables
+FSTEM-MATH-R3-014,18.600,Probability and Random Variables,undergraduate,mathematics,18.600-fall-2019,OCW1,263,Probability and Random Variables
+FSTEM-MATH-R3-015,18.642,Topics in Mathematics with Applications in Finance,undergraduate,mathematics,18.642-fall-2024,ocwundergr,301,Topics in Mathematics with Applications in Finance
+FSTEM-MATH-R3-016,18.650,Statistics for Applications,undergraduate,mathematics,18.650-fall-2016,OCW1,224,Statistics for Applications
+FSTEM-MATH-R3-017,18.703,Modern Algebra,undergraduate,mathematics,18.703-spring-2013,OCW1,117,Modern Algebra
+FSTEM-MATH-R3-018,18.S096,Topics in Mathematics with Applications in Finance,undergraduate,mathematics,18.s096-fall-2013,OCW1,424,Topics in Mathematics with Applications in Finance
+FSTEM-MATH-R3-019,18.S191,Introduction to Computational Thinking,undergraduate,mathematics,18.s191-fall-2020,ocwundergr,33,Introduction to Computational Thinking
+FSTEM-MATH-R3-020,RES.LL-005,Mathematics of Big Data and Machine Learning,undergraduate,mathematics,res.ll-005-january-iap-2020,OCW1,400,Mathematics of Big Data and Machine Learning
+FSTEM-PHIL-R3-001,24.01,Classics of Western Philosophy,undergraduate,philosophy,24.01-spring-2016,ocwwestcivGrad,105,Classics of Western Philosophy
+FSTEM-PHIL-R3-002,24.04J,Justice,undergraduate,philosophy,24.04j-spring-2012,ocwwestcivGrad,164,Justice
+FSTEM-PHIL-R3-003,24.131,Ethics of Technology,undergraduate,philosophy,24.131-spring-2023,ocwundergr,52,Ethics of Technology
+FSTEM-PHIL-R3-004,24.150J,"Liberalism, Toleration, and Freedom of Speech",undergraduate,philosophy,24.150-fall-2023,ocwwestcivGrad,191,"Liberalism, Toleration, and Freedom of Speech"
+FSTEM-PHIL-R3-005,24.200,Ancient Philosophy,undergraduate,philosophy,24.200-fall-2004,ocwwestcivGrad,109,Ancient Philosophy
+FSTEM-PHIL-R3-006,24.211,Theory of Knowledge,undergraduate,philosophy,24.211-spring-2014,ocwwestcivGrad,43,Theory of Knowledge
+FSTEM-PHIL-R3-007,24.231,Ethics,undergraduate,philosophy,24.231-fall-2009,ocwwestcivGrad,92,Ethics
+FSTEM-PHIL-R3-008,24.235J,Philosophy of Law,undergraduate,philosophy,24.235j-spring-2012,ocwwesternCIV,107,Philosophy of Law
+FSTEM-PHIL-R3-009,24.251,Introduction to Philosophy of Language,undergraduate,philosophy,24.251-fall-2011,ocwwesternCIV,95,Introduction to Philosophy of Language
+FSTEM-PHIL-R3-010,24.261,Philosophy of Love in the Western World,undergraduate,philosophy,24.261-fall-2004,ocwwesternCIV,35,Philosophy of Love in the Western World
+FSTEM-POL-R3-001,15.615,Law for the Entrepreneur and Manager,undergraduate,politics,15.615-spring-2003,ocwundergr,91,Law for the Entrepreneur and Manager
+FSTEM-POL-R3-002,17.181,"Sustainability: Political Economy, Science, and Policy",undergraduate,politics,17.181-fall-2016,ocwundergr,82,"Sustainability: Political Economy, Science, and Policy"
+FSTEM-POL-R3-003,17.40,"American Foreign Policy: Past, Present, and Future",undergraduate,politics,17.40-fall-2017,ocwundergr,138,"American Foreign Policy: Past, Present, and Future"
+FSTEM-POL-R3-004,17.407,Chinese Foreign Policy,undergraduate,politics,17.407-fall-2005,OCW1,47,Chinese Foreign Policy
+FSTEM-POL-R3-005,17.42,Causes and Prevention of War,undergraduate,politics,17.42-spring-2018,ocwundergr,144,Causes and Prevention of War
+FSTEM-POL-R3-006,17.482,U.S. Military Power,undergraduate,politics,17.482-spring-2015,OCW1,49,U.S. Military Power
+FSTEM-POL-R3-007,17.810,Game Theory,undergraduate,politics,17.810-spring-2001,OCW1,57,Game Theory
+FSTEM-POL-R3-008,17.S916,All the President's Generals: Civil-Military Relations in the US and Beyond,undergraduate,politics,17.s916-january-iap-2020,OCW1,37,All the President's Generals: Civil-Military Relations in the US and Beyond
+FSTEM-STS-R3-001,11.001J,Introduction to Urban Design and Development,undergraduate,society_technology,11.001j-spring-2006,OCW1,92,Introduction to Urban Design and Development
+FSTEM-STS-R3-002,11.167,Economic Development & Technical Capabilities,undergraduate,society_technology,11.167-spring-2004,OCW1,45,Economic Development & Technical Capabilities
+FSTEM-STS-R3-003,21A.215,"Disease and Health: Culture, Society, and Ethics",undergraduate,society_technology,21a.215-spring-2012,ocwwesternCIV,95,"Disease and Health: Culture, Society, and Ethics"
+FSTEM-STS-R3-004,21A.219,Law and Society,undergraduate,society_technology,21a.219-spring-2003,ocwwesternCIV,87,Law and Society
+FSTEM-STS-R3-005,21A.520,"Magic, Science, and Religion",undergraduate,society_technology,21A.520-fall-2021,ocwwesternCIV,45,"Magic, Science, and Religion"
+FSTEM-STS-R3-006,STS.001,Technology in American History,undergraduate,society_technology,sts.001-spring-2006,ocwwesternCIV,82,Technology in American History
+FSTEM-STS-R3-007,STS.002,Finance and Society,undergraduate,society_technology,sts.002-spring-2016,ocwundergr,90,Finance and Society
+FSTEM-STS-R3-008,STS.004,"Science, Technology, & World",undergraduate,society_technology,sts.004-fall-2013,ocwwesternCIV,67,"Science, Technology, & World"
+FSTEM-STS-R3-009,STS.005,Disease and Society in America,undergraduate,society_technology,sts.005-fall-2005,ocwwesternCIV,166,Disease and Society in America
+FSTEM-STS-R3-010,STS.007,Technology in History,undergraduate,society_technology,sts.007-fall-2010,ocwwesternCIV,99,Technology in History
+FSTEM-STS-R3-011,STS.025J,Making the Modern World: The Industrial Revolution in Global Perspective,undergraduate,society_technology,sts.025j-fall-2009,OCW1,46,Making the Modern World: The Industrial Revolution in Global Perspective
+FSTEM-STS-R3-012,STS.034,Science Communication: A Practical Guide,undergraduate,society_technology,sts.034-fall-2011,ocwwesternCIV,52,Science Communication: A Practical Guide
+FSTEM-STS-R3-013,STS.081,"Innovation Systems for Science, Technology, Energy, Manufacturing, and Health",undergraduate,society_technology,sts.081-spring-2017,ocwundergr,347,"Innovation Systems for Science, Technology, Energy, Manufacturing, and Health"

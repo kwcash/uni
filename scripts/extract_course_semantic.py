@@ -1,0 +1,249 @@
+#!/usr/bin/env python3
+"""
+OCW Course Extraction v2 - Focus on HTML content with semantic boilerplate filtering.
+Ignores JSON (it's empty anyway), extracts only meaningful course sections.
+"""
+
+import os
+import re
+from pathlib import Path
+from html.parser import HTMLParser
+from html import unescape
+
+class SemanticHTMLExtractor(HTMLParser):
+    """
+    Extract course content from HTML while removing:
+    - Navigation menus and headers
+    - Footer/copyright blocks
+    - Repeated metadata sidebars
+    - External link warnings
+    """
+    
+    def __init__(self):
+        super().__init__()
+        self.text_parts = []
+        self.skip_content = False
+        self.in_main_content = False
+        self.tag_stack = []
+        self.section_count = 0
+    
+    def handle_starttag(self, tag, attrs):
+        self.tag_stack.append(tag)
+        
+        # Skip script/style content
+        if tag in ('script', 'style'):
+            self.skip_content = True
+            return
+        
+        # Skip nav/footer/sidebar
+        if tag in ('nav', 'footer', 'aside', 'noscript'):
+            self.skip_content = True
+            return
+        
+        # Detect main content areas
+        if tag == 'main' or 'main' in dict(attrs).get('class', ''):
+            self.in_main_content = True
+        if tag in ('article', 'section') and self.in_main_content:
+            self.section_count += 1
+    
+    def handle_endtag(self, tag):
+        if self.tag_stack and self.tag_stack[-1] == tag:
+            self.tag_stack.pop()
+        
+        if tag in ('script', 'style', 'nav', 'footer', 'aside', 'noscript'):
+            self.skip_content = False
+        
+        if tag == 'main':
+            self.in_main_content = False
+        
+        # Add line breaks after block elements
+        if tag in ('p', 'div', 'section', 'article', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'tr', 'table'):
+            if self.text_parts and self.text_parts[-1].strip():
+                self.text_parts.append('\n')
+    
+    def handle_data(self, data):
+        if not self.skip_content:
+            text = data.strip()
+            if text:
+                self.text_parts.append(text + ' ')
+    
+    def get_text(self):
+        """Return cleaned text with intelligent boilerplate filtering."""
+        raw_text = ''.join(self.text_parts)
+        
+        # Normalize whitespace
+        raw_text = re.sub(r'\n\s*\n+', '\n\n', raw_text)
+        raw_text = re.sub(r' +', ' ', raw_text)
+        
+        # Split into lines for semantic filtering
+        lines = raw_text.split('\n')
+        filtered_lines = []
+        
+        # Patterns that indicate boilerplate (delete entirely)
+        hard_boilerplate = [
+            r'Browse Course Material',
+            r'GIVE NOW|Give Now',
+            r'About OCW|Help & FAQs|Help & Faqs|Contact Us',
+            r'Over 2,500 courses|Freely sharing knowledge',
+            r'©.*Massachusetts Institute',
+            r'Accessibility|Creative Commons License|Terms and Conditions',
+            r'You are leaving MIT|Please be advised|Stay Here|Continue',
+            r'Proud member of',
+            r'MIT OpenCourseWare$',
+            r'^Menu$',
+            r'^More Info$',
+            r'^Pages$',
+        ]
+        
+        # Metadata sidebar items (allow FIRST occurrence only, then block repeats)
+        sidebar_items = {'Instructor', 'Departments', 'Level', 'Topics', 'Learning Resource Types', 
+                        'As Taught In', 'Course Info', 'Undergraduate', 'Graduate', 'History',
+                        'African History', 'American History', 'Medieval History', 'World History',
+                        'Humanities', 'assignment_turned_in', 'Written Assignments with Examples',
+                        'Browse Resources', 'Prof. Anne McCants'}
+        
+        sidebar_seen_count = {}
+        in_sidebar_block = False
+        
+        for line in lines:
+            stripped = line.strip()
+            
+            # Skip empty lines but keep one for readability
+            if not stripped:
+                if filtered_lines and filtered_lines[-1] != '':
+                    filtered_lines.append('')
+                continue
+            
+            # Hard boilerplate removal
+            if any(re.search(pattern, stripped, re.IGNORECASE) for pattern in hard_boilerplate):
+                continue
+            
+            # Detect sidebar block start (consecutive sidebar items)
+            if stripped in sidebar_items:
+                sidebar_seen_count[stripped] = sidebar_seen_count.get(stripped, 0) + 1
+                # Skip if this sidebar item has appeared before
+                if sidebar_seen_count[stripped] > 1:
+                    continue
+            
+            # Skip lines that are just metadata pairs (short lines in metadata context)
+            if len(stripped) < 50 and stripped in sidebar_items:
+                continue
+            
+            filtered_lines.append(stripped)
+        
+        # Join and deduplicate consecutive identical lines
+        result = '\n'.join(filtered_lines).strip()
+        
+        final_lines = []
+        prev_line = None
+        for line in result.split('\n'):
+            if line != prev_line:
+                final_lines.append(line)
+                prev_line = line
+        
+        return '\n'.join(final_lines)
+
+
+def extract_course_html(html_path):
+    """Extract clean course content from HTML."""
+    try:
+        with open(html_path, 'r', encoding='utf-8', errors='ignore') as f:
+            html_content = f.read()
+        
+        extractor = SemanticHTMLExtractor()
+        extractor.feed(html_content)
+        text = extractor.get_text()
+        
+        return text if len(text) > 100 else None
+    except Exception as e:
+        return None
+
+
+def process_course(course_path, course_name):
+    """
+    Process a course by extracting from key pages in priority order.
+    Focus: Only extract from HTML, ignore JSON (it's empty).
+    """
+    pages_dir = os.path.join(course_path, 'pages')
+    
+    if not os.path.exists(pages_dir):
+        return None
+    
+    # Priority: Syllabus first (has structure), then overview, then supporting content
+    page_specs = [
+        ('pages/syllabus/index.html', 'SYLLABUS'),
+        ('pages/index.html', 'COURSE OVERVIEW'),
+        ('pages/calendar/index.html', 'SCHEDULE'),
+        ('pages/assignments/index.html', 'ASSIGNMENTS'),
+        ('pages/readings/index.html', 'READINGS'),
+    ]
+    
+    content_parts = [f"COURSE: {course_name}\n{'='*75}\n"]
+    extracted_count = 0
+    
+    for rel_path, section_label in page_specs:
+        full_path = os.path.join(course_path, rel_path)
+        
+        if os.path.exists(full_path):
+            text = extract_course_html(full_path)
+            if text:
+                content_parts.append(f"\n{section_label}:")
+                content_parts.append("-" * 75)
+                content_parts.append(text)
+                content_parts.append("")
+                extracted_count += 1
+    
+    if extracted_count > 0:
+        return '\n'.join(content_parts)
+    
+    return None
+
+
+def main():
+    # --- FSTEM patch: accept a path instead of hardcoding one ---------------
+    import argparse as _fstem_argparse
+    _fstem_ap = _fstem_argparse.ArgumentParser(add_help=True)
+    _fstem_ap.add_argument("root", nargs="?", default=None,
+                           help="Directory of course folders. Default ~/Projects/OCW1")
+    _fstem_ap.add_argument("--root", dest="root_flag", default=None,
+                           help="Same as the positional argument.")
+    _fstem_args, _ = _fstem_ap.parse_known_args()
+    ocw1_path = os.path.expanduser(
+        _fstem_args.root_flag or _fstem_args.root or "~/Projects/OCW1")
+    print(f"[fstem] root: {ocw1_path}")
+    # --- end FSTEM patch -----------------------------------------------------
+    if not os.path.exists(ocw1_path):
+        print(f"ERROR: {ocw1_path} does not exist")
+        return
+    
+    courses = sorted([d for d in os.listdir(ocw1_path) 
+                     if os.path.isdir(os.path.join(ocw1_path, d)) and not d.startswith('.')])
+    
+    print(f"Processing {len(courses)} courses with SEMANTIC extraction\n")
+    
+    success_count = 0
+    
+    for i, course in enumerate(courses, 1):
+        course_path = os.path.join(ocw1_path, course)
+        summary_file = os.path.join(course_path, f"{course}SEMANTIC.txt")
+        
+        content = process_course(course_path, course)
+        
+        if content:
+            try:
+                with open(summary_file, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f"[{i:3d}] ✓ {course}")
+                success_count += 1
+            except Exception as e:
+                print(f"[{i:3d}] ✗ {course} - Error: {e}")
+        else:
+            print(f"[{i:3d}] - {course} (no extractable content)")
+    
+    print(f"\n{'='*75}")
+    print(f"COMPLETE: {success_count} semantic summaries created")
+    print(f"{'='*75}")
+
+
+if __name__ == '__main__':
+    main()

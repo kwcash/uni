@@ -1,0 +1,34 @@
+ROGERS STRATEGY & IT CONSULTING — PLATFORM BUSINESS PLAN
+     =====================================================
+     
+     Three integrated deliverables (August 2026 working draft):
+     
+     1. Rogers_Platform_Business_Plan.docx (19 pages)
+        Executive strategy document. Decodes Hostinger's sales model and maps ten 
+        mechanics onto Rogers' consulting ladder + productized offerings. 
+        Five-rung pricing: Free → Digital → Programs → Sprint → Transformation.
+        Layers self-service platform onto unchanged SCORE core: $87k → $200k → $500k 
+        core + $24k → $75k → $170k platform = $110.8k → $275k → $672k total Y1–Y3.
+     
+     2. Rogers_Platform_Playbook.docx (12 pages)
+        Build manual, Parts A–H: storefront (WordPress+WooCommerce), Stripe payment 
+        engine, order-bump recipes, fulfillment SOPs, email sequences, support KB, 
+        launch gates, policy templates. Each part has a "done when" test.
+     
+     3. Rogers_Platform_Templates.xlsx (6 sheets)
+        Working model: Product Catalog (28 SKUs), Revenue Model (12-month formula grid, 
+        287 formulas, zero errors), KPI Dashboard (12 tracked metrics + targets), 
+        MRR Tracker, Launch Checklist (26 tasks).
+     
+     Build scripts: _RogersPlatform_build_plan.js, _RogersPlatform_build_pb.js, 
+     _RogersPlatform_build_xlsx.py, _RogersPlatform_helpers.js
+     
+     Key assumptions (all adjustable in the workbook):
+     - Platform goes live end of M2 (3 digital SKUs only)
+     - Digital units ramp 5→25/month
+     - Subscriptions launch M5 (Tools Library, Advisor Line, Team Training License)
+     - Y1 target: 1,500 sessions/mo, 3% email capture, 1.5% store conversion, $110 AOV
+     - Exit Y1 MRR: ~$2,200 (29 Library members + 1 Advisor + 1 Team License)
+     
+     For next steps: review with SCORE mentor, adjust growth multipliers or entry 
+     prices as needed, then execute the Playbook's 5-phase roadmap.

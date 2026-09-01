@@ -1,0 +1,180 @@
+#!/usr/bin/env python3
+"""
+Extract course syllabus and front page content from OCW1 directory.
+Creates [coursefolder]summary.txt for each course.
+Preserves all original files intact.
+"""
+
+import os
+import json
+import re
+from pathlib import Path
+from html.parser import HTMLParser
+from html import unescape
+
+class TextExtractor(HTMLParser):
+    """Extract clean text from HTML, filtering out script/style content."""
+    
+    def __init__(self):
+        super().__init__()
+        self.text_parts = []
+        self.skip_content = False
+        self.in_script = False
+        self.in_style = False
+    
+    def handle_starttag(self, tag, attrs):
+        if tag in ('script', 'style'):
+            self.skip_content = True
+        elif tag in ('nav', 'footer', 'noscript'):
+            self.skip_content = True
+    
+    def handle_endtag(self, tag):
+        if tag in ('script', 'style', 'nav', 'footer', 'noscript'):
+            self.skip_content = False
+        elif tag in ('p', 'div', 'section', 'article', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'li', 'td', 'tr'):
+            if self.text_parts and self.text_parts[-1].strip():
+                self.text_parts.append('\n')
+    
+    def handle_data(self, data):
+        if not self.skip_content:
+            text = data.strip()
+            if text:
+                self.text_parts.append(text + ' ')
+    
+    def get_text(self):
+        """Return cleaned, deduplicated text."""
+        text = ''.join(self.text_parts)
+        # Remove excessive whitespace
+        text = re.sub(r'\n\s*\n+', '\n\n', text)
+        text = re.sub(r' +', ' ', text)
+        return unescape(text).strip()
+
+
+def extract_html_text(html_path):
+    """Extract clean text from HTML file."""
+    try:
+        with open(html_path, 'r', encoding='utf-8', errors='ignore') as f:
+            html_content = f.read()
+        
+        extractor = TextExtractor()
+        extractor.feed(html_content)
+        return extractor.get_text()
+    except Exception as e:
+        return f"[Error reading {html_path}: {e}]"
+
+
+def extract_json_data(json_path):
+    """Extract relevant content from data.json files."""
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Extract key fields intelligently
+        text_parts = []
+        
+        # Common keys that contain course info
+        key_fields = ['title', 'description', 'overview', 'objectives', 'syllabus', 
+                      'learning_outcomes', 'requirements', 'grading', 'schedule']
+        
+        for key in key_fields:
+            if key in data and data[key]:
+                value = data[key]
+                if isinstance(value, str):
+                    text_parts.append(f"{key.upper()}:\n{value}\n")
+                elif isinstance(value, list):
+                    text_parts.append(f"{key.upper()}:\n" + '\n'.join(str(v) for v in value) + "\n")
+        
+        return '\n'.join(text_parts) if text_parts else json.dumps(data, indent=2)[:500]
+    except Exception as e:
+        return f"[Error reading {json_path}: {e}]"
+
+
+def process_course(course_path, course_name):
+    """Process a single course directory."""
+    pages_dir = os.path.join(course_path, 'pages')
+    
+    if not os.path.exists(pages_dir):
+        return None
+    
+    content_parts = []
+    
+    # Extract front page (index.html)
+    front_page_html = os.path.join(pages_dir, 'index.html')
+    if os.path.exists(front_page_html):
+        front_text = extract_html_text(front_page_html)
+        if front_text:
+            content_parts.append(f"{'='*80}")
+            content_parts.append(f"FRONT PAGE - {course_name}")
+            content_parts.append(f"{'='*80}\n")
+            content_parts.append(front_text)
+            content_parts.append("\n")
+    
+    # Extract syllabus (index.html)
+    syllabus_html = os.path.join(pages_dir, 'syllabus', 'index.html')
+    if os.path.exists(syllabus_html):
+        syllabus_text = extract_html_text(syllabus_html)
+        if syllabus_text:
+            content_parts.append(f"{'='*80}")
+            content_parts.append(f"SYLLABUS - {course_name}")
+            content_parts.append(f"{'='*80}\n")
+            content_parts.append(syllabus_text)
+            content_parts.append("\n")
+    
+    # Extract syllabus data.json if it exists
+    syllabus_json = os.path.join(pages_dir, 'syllabus', 'data.json')
+    if os.path.exists(syllabus_json):
+        json_text = extract_json_data(syllabus_json)
+        if json_text:
+            content_parts.append(f"{'='*80}")
+            content_parts.append(f"SYLLABUS DATA (JSON) - {course_name}")
+            content_parts.append(f"{'='*80}\n")
+            content_parts.append(json_text)
+            content_parts.append("\n")
+    
+    if content_parts:
+        return '\n'.join(content_parts)
+    
+    return None
+
+
+def main():
+    ocw1_path = os.path.expanduser('~/Projects/OCW1')
+    
+    if not os.path.exists(ocw1_path):
+        print(f"ERROR: {ocw1_path} does not exist")
+        return
+    
+    # Get all course directories
+    courses = sorted([d for d in os.listdir(ocw1_path) 
+                     if os.path.isdir(os.path.join(ocw1_path, d)) and not d.startswith('.')])
+    
+    print(f"Processing {len(courses)} courses in {ocw1_path}\n")
+    
+    success_count = 0
+    error_count = 0
+    
+    for i, course in enumerate(courses, 1):
+        course_path = os.path.join(ocw1_path, course)
+        summary_file = os.path.join(course_path, f"{course}summary.txt")
+        
+        content = process_course(course_path, course)
+        
+        if content:
+            try:
+                with open(summary_file, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f"[{i:3d}] ✓ {course} → {course}summary.txt")
+                success_count += 1
+            except Exception as e:
+                print(f"[{i:3d}] ✗ {course} - Write error: {e}")
+                error_count += 1
+        else:
+            print(f"[{i:3d}] - {course} (no pages/index.html or syllabus found)")
+    
+    print(f"\n{'='*80}")
+    print(f"COMPLETE: {success_count} summaries created, {error_count} errors")
+    print(f"{'='*80}")
+
+
+if __name__ == '__main__':
+    main()
