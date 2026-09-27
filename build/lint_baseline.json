@@ -1,0 +1,217 @@
+[
+ {
+  "file": "KDP_MASTER.md",
+  "prose_words": 78638,
+  "sentences": 5927,
+  "em_dashes": 0,
+  "em_dash_lines": [],
+  "sentences_over_25": 422,
+  "sentences_over_35": 67,
+  "mean_sentence_length": 13.27,
+  "share_over_30": 0.0282,
+  "not_x_but_y": 13,
+  "not_x_but_y_examples": [
+   [
+    64,
+    "not because Americans were careless but"
+   ],
+   [
+    1063,
+    "not because the reasoning failed but"
+   ],
+   [
+    1491,
+    "not by arguing against any particular fact but"
+   ],
+   [
+    1737,
+    "not a platform, but"
+   ],
+   [
+    1745,
+    "not a policy toward the Party, but"
+   ],
+   [
+    2397,
+    "not software, but"
+   ],
+   [
+    2545,
+    "not as a claim about the virus but"
+   ],
+   [
+    3766,
+    "not because a board ordered it but"
+   ],
+   [
+    3884,
+    "Not what the roadmap contains, but"
+   ],
+   [
+    3954,
+    "not by metaphor but"
+   ],
+   [
+    3982,
+    "not only what an organization does but"
+   ],
+   [
+    3986,
+    "not because its domains are individually stronger but"
+   ],
+   [
+    4112,
+    "not a flaw to be engineered away but"
+   ]
+  ],
+  "weak_adverbs": 50,
+  "weak_adverbs_per_1000": 0.64,
+  "weak_adverb_counts": {
+   "roughly": 28,
+   "merely": 6,
+   "approximately": 3,
+   "simply": 3,
+   "actually": 3,
+   "clearly": 3,
+   "essentially": 1,
+   "effectively": 1,
+   "very": 1,
+   "really": 1
+  },
+  "nominalizations": 4023,
+  "nominalizations_per_1000": 51.16,
+  "longest_sentences": [
+   [
+    1547,
+    55,
+    "Legal warfare is one of the three warfares by the PLA's own regulations, and the Anti-Secession Law of 2005 serves as a standing psychological instrument as wel"
+   ],
+   [
+    1491,
+    47,
+    "It degrades a whole society's shared sense of what is real, not by arguing against any particular fact but by making every fact compete for attention on the sam"
+   ],
+   [
+    4487,
+    46,
+    "Agency or Gradient named in a case should signal no clean doctrinal analogue at all, since these two Dimensions are where this book's argument and existing doct"
+   ],
+   [
+    301,
+    45,
+    "Accounts of how many set out vary, and the Party that later told the story had reasons to shape it, but the range in the serious sources runs from eighty thousa"
+   ],
+   [
+    1707,
+    45,
+    "A free society rightly refuses the Party's identity layer as the price of protecting minors, which means any protection it builds has to work without a registry"
+   ],
+   [
+    2432,
+    45,
+    "A security instrument a trade negotiator can suspend in a matter of weeks becomes a bargaining chip rather than a defense, and three such chips now share one ex"
+   ],
+   [
+    4112,
+    45,
+    "The structure that keeps a free society free is the same structure that denies it a commanding architect, and Coherence Without Command argues at length that th"
+   ],
+   [
+    4154,
+    45,
+    "Admiral Nimitz ran the Western version of the same patience across the Pacific from 1943 onward, bypassing the strongest Japanese garrisons at Rabaul and Truk, "
+   ],
+   [
+    1618,
+    44,
+    "Where a foreign audience is the target, the platform supplies the terrain and the covert network supplies the message, and a population that has spent years ins"
+   ],
+   [
+    5276,
+    44,
+    "The Otrar caravan massacre of 1218 and Genghis Khan's subsequent ultimatums to Khwarezmian cities are documented across The Secret History of the Mongols and Ju"
+   ]
+  ]
+ },
+ {
+  "file": "PRIMER_MASTER.md",
+  "prose_words": 14964,
+  "sentences": 1190,
+  "em_dashes": 0,
+  "em_dash_lines": [],
+  "sentences_over_25": 91,
+  "sentences_over_35": 13,
+  "mean_sentence_length": 12.57,
+  "share_over_30": 0.0294,
+  "not_x_but_y": 1,
+  "not_x_but_y_examples": [
+   [
+    1002,
+    "Not a numbered stratagem itself, but"
+   ]
+  ],
+  "weak_adverbs": 24,
+  "weak_adverbs_per_1000": 1.6,
+  "weak_adverb_counts": {
+   "actually": 14,
+   "roughly": 5,
+   "simply": 2,
+   "really": 2,
+   "very": 1
+  },
+  "nominalizations": 527,
+  "nominalizations_per_1000": 35.22,
+  "longest_sentences": [
+   [
+    481,
+    47,
+    "A shell structure let American capital reach Chinese companies the Party's own law would otherwise have kept foreign owners out of, and turned an entire decade "
+   ],
+   [
+    910,
+    47,
+    "A shell structure let American capital reach Chinese companies the Party's own law would otherwise have kept foreign owners out of, and turned an entire decade "
+   ],
+   [
+    625,
+    44,
+    "Their real vulnerability runs through a career that has plateaued at one employer, a pay scale that has not kept pace with the value of a rare skill, and a labo"
+   ],
+   [
+    619,
+    41,
+    "A researcher testified to a congressional commission in 2005 that a major mainland electronics maker mined foreign patent applications for its own product devel"
+   ],
+   [
+    637,
+    41,
+    "A state-funded company set out to build an advanced chip plant it could not build on its own knowledge, and recruited the engineers who held that knowledge from"
+   ],
+   [
+    940,
+    41,
+    "A state-funded company set out to build an advanced chip plant it could not build on its own knowledge, and recruited the engineers who held that knowledge from"
+   ],
+   [
+    718,
+    39,
+    "Chapter 7 showed you a company running two versions of the same app, one that limits a mainland teenager to forty minutes a day and one that lets any teenager e"
+   ],
+   [
+    328,
+    38,
+    "A supply chain running from Chinese chemical suppliers through cartels killed tens of thousands of Americans in a single year, and the chain was built with enou"
+   ],
+   [
+    449,
+    38,
+    "Gary Gensler stated plainly that when an American bought shares in one of the largest Chinese companies trading in New York, neither the shares nor the company "
+   ],
+   [
+    675,
+    38,
+    "That is the reason this book calls Taiwan the place where the whole framework runs in the open, in real time, rather than in fragments spread across a decade th"
+   ]
+  ]
+ }
+]

@@ -314,7 +314,8 @@ def table_after(lines, start, end):
 def site(apply):
     cx = sqlite3.connect(M7DB)
     cx.row_factory = sqlite3.Row
-    kdp = open(os.path.join(ROOT, "KDP_MASTER.md"), encoding="utf-8").read().split("\n")
+    with open(os.path.join(ROOT, "KDP_MASTER.md"), encoding="utf-8") as fh:
+        kdp = fh.read().split("\n")
     ref = lambda r: {"source_file": r["source_file"], "start_line": r["start_line"], "end_line": r["end_line"]}
 
     docs = {r["doc_id"]: r for r in cx.execute("SELECT * FROM tdw_documents")}
