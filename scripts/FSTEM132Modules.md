@@ -508,7 +508,7 @@ Source: FSTEM original research — 36gems.com (36 Stratagems computational fram
  
 FSTEM Original · Concentration 7 warm-up reading · Read before Course 29 · A primer, not a course: no modules, no credit
  
-File: primers/FSTEM-M7-TDC-PRIMER.md (companion to *Total Domain War*, Second Edition)
+File: PRIMER_MASTER.md (companion to *Total Domain War*, Second Edition)
  
 The primer gives the vocabulary Courses 29–31 assume: ten forces, twelve fields and thirty-six moves, then one lifecycle (Attract, Accommodate, Control, Extract, Consume) traced through documented cases. Twelve chapters in four parts. Each chapter closes with an exercise and a Field Card.
  
