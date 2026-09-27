@@ -502,22 +502,15 @@ OCW reference: ocw.mit.edu/courses/engineering-systems-division/esd-20j-engineer
  
 # **CONCENTRATION 7 — Total Domain Conflict ****&**** Strategic Analysis · FSTEM Original · +3 courses**
  
-Source: FSTEM original research — 36gems.com (36 Stratagems computational framework) and aisystemsedge.com (AI systems for strategic edge). No MIT MicroMasters equivalent. The 36 Stratagems are a 2,500-year-old Chinese military treatise formally classified and computationally operationalised by FSTEM. Students begin with the Warm-up primer, *Total Domain War: The Primer*, before Course 29. These 3 courses represent a genuinely novel academic contribution with no equivalent curriculum anywhere. Fine-tuning of proprietary content to follow. The NLP and RL foundations from Concentration 1 (Courses 06 and 07) are directly applicable here.
+Source: FSTEM original research — 36gems.com (36 Stratagems computational framework) and aisystemsedge.com (AI systems for strategic edge). No MIT MicroMasters equivalent. The 36 Stratagems are a 2,500-year-old Chinese military treatise formally classified and computationally operationalised by FSTEM. Students read the primer, *Total Domain War: The Primer*, as a warm-up before Course 29. These 3 courses represent a genuinely novel academic contribution with no equivalent curriculum anywhere. Fine-tuning of proprietary content to follow. The NLP and RL foundations from Concentration 1 (Courses 06 and 07) are directly applicable here.
  
-**Warm-up  ****Total Domain War: The Primer — Start Here**
+**Primer  ****Total Domain War: The Primer — Start Here**
  
-FSTEM Original · Concentration 7 entry reading · Taken before Course 29 · Not counted in the 132 modules
+FSTEM Original · Concentration 7 warm-up reading · Read before Course 29 · A primer, not a course: no modules, no credit
  
-Primer source: primers/FSTEM-M7-TDW-PRIMER.md (companion to *Total Domain War*, Second Edition)
+File: primers/FSTEM-M7-TDC-PRIMER.md (companion to *Total Domain War*, Second Edition)
  
-Every Concentration 7 student starts here. The primer builds the vocabulary Courses 29–31 assume: ten forces, twelve fields and thirty-six moves, then one lifecycle traced through five real cases. Each chapter closes with an exercise and a Field Card. Students submit all twelve Field Cards before entering Course 29.
- 
-| **Mod** | **Title** | **Primer Chapters** | **Warm-up Outcomes** |
-| --- | --- | --- | --- |
-| **W1** | **You Are the Audience** | Part One · Ch 1 Your Whole Life Ahead · Ch 2 Two Men With Nothing | Reader positions self as the audience of the contest, applies the Four Boxes, completes Field Cards 1–2 |
-| **W2** | **How the Machine Works** | Part Two · Ch 3 Ten Forces · Ch 4 Twelve Fields · Ch 5 Thirty-Six Moves | Names the ten forces, twelve fields and thirty-six stratagems; this vocabulary feeds the Course 29 taxonomy and Course 30 domain framework |
-| **W3** | **One Lifecycle, Five Lives** | Part Three · Ch 6 Attract · Ch 7 Accommodate · Ch 8 Control · Ch 9 Extract · Ch 10 Consume | Traces the five-stage lifecycle through documented cases, separates Documented from Argued claims, completes Field Cards 6–10 |
-| **W4** | **The Opening** | Part Four · Ch 11 Protecting Your Capacity to Decide · Ch 12 The Jobs Nobody Is Doing | Applies the framework to own decisions, picks one open gap from the Field Cards as a candidate Forge problem |
+The primer gives the vocabulary Courses 29–31 assume: ten forces, twelve fields and thirty-six moves, then one lifecycle (Attract, Accommodate, Control, Extract, Consume) traced through documented cases. Twelve chapters in four parts. Each chapter closes with an exercise and a Field Card.
  
 **Course 29  ****36 Stratagems: Taxonomy, Ontology ****&**** NLP Classification**
  

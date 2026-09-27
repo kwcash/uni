@@ -122,7 +122,7 @@ TRACKS = [
     ("m4", "Quantitative Finance", "MS-QF", "masters"),
     ("m5", "Economics & Policy", "MS-ECP", "masters"),
     ("m6", "Power Currency & Distributed Energy", "MS-PCDE", "masters"),
-    ("m7", "Total Domain War Studies", "MS-TDWS", "masters"),
+    ("m7", "Total Domain Conflict", "MS-TDC", "masters"),
 ]
 
 # Phase 1 vertical substrate test. Only verticals whose SOURCE expired are 'dead'.
