@@ -35,7 +35,7 @@ TABLE = """CREATE TABLE IF NOT EXISTS module_overlays (
     UNIQUE (module_id, track_id)
 )"""
 
-OVERLAY_ID = re.compile(r'-M\d+-(m[1-7])$')
+OVERLAY_ID = re.compile(r'-M\d+-(?:PROG-)?(m[1-7])$')   # -M8-m4 legacy, -M8-PROG-m7 current
 
 INDEXES = [
     "CREATE INDEX IF NOT EXISTS idx_ovl_track  ON module_overlays(track_id)",
@@ -122,7 +122,7 @@ def main():
             print(f"  UNKNOWN track {tid} in {os.path.basename(p)}, skipped")
             continue
 
-        mid = re.sub(r'-(m[1-7])$', '', oid)
+        mid = re.sub(r'-(?:PROG-)?(m[1-7])$', '', oid)
 
         rows.append((oid, mid, parent, tid, tname, idx, cnt, h["_title"],
                      variant, code.group(1) if code else "",

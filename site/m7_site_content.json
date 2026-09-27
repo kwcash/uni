@@ -1,0 +1,1611 @@
+{
+ "program": {
+  "id": "m7",
+  "name": "Total Domain Conflict",
+  "degree": "MS-TDC",
+  "rung": "masters",
+  "facts": {
+   "course_count": 20,
+   "module_count": null,
+   "lesson_count": null,
+   "micro_credential_count": null,
+   "facts_source": "tools/overlay_affordances.csv; module, lesson and micro-credential counts await build/fstem.db"
+  }
+ },
+ "courses": [
+  {
+   "fstem_id": "FSTEM-CS-R4-012",
+   "title": "Computer Systems Security",
+   "overlay_level": 3
+  },
+  {
+   "fstem_id": "FSTEM-ENG-R4-033",
+   "title": "System Safety",
+   "overlay_level": 3
+  },
+  {
+   "fstem_id": "FSTEM-AI-SPINE-001",
+   "title": "[AI SPINE COURSE TITLE]",
+   "overlay_level": 3
+  },
+  {
+   "fstem_id": "FSTEM-POL-R4-002",
+   "title": "Chinese Foreign Policy",
+   "overlay_level": 3
+  },
+  {
+   "fstem_id": "FSTEM-HIST-R4-003",
+   "title": "Communications and Information Policy",
+   "overlay_level": 3
+  },
+  {
+   "fstem_id": "FSTEM-ENG-R4-035",
+   "title": "Space Policy Seminar",
+   "overlay_level": 2
+  },
+  {
+   "fstem_id": "FSTEM-ENG-R4-037",
+   "title": "Space Systems Engineering",
+   "overlay_level": 2
+  },
+  {
+   "fstem_id": "FSTEM-ENG-R4-036",
+   "title": "Space System Architecture and Design",
+   "overlay_level": 2
+  },
+  {
+   "fstem_id": "FSTEM-ECON-R4-008",
+   "title": "Industrial Organization I",
+   "overlay_level": 2
+  },
+  {
+   "fstem_id": "FSTEM-STS-R4-021",
+   "title": "Engineering Apollo: The Moon Project as a Complex System",
+   "overlay_level": 2
+  },
+  {
+   "fstem_id": "FSTEM-ECON-R4-019",
+   "title": "Introduction to Political Economy",
+   "overlay_level": 2
+  },
+  {
+   "fstem_id": "FSTEM-STS-R4-019",
+   "title": "Social and Political Implications of Technology",
+   "overlay_level": 2
+  },
+  {
+   "fstem_id": "FSTEM-STS-R4-017",
+   "title": "Cold War Science",
+   "overlay_level": 2
+  },
+  {
+   "fstem_id": "FSTEM-MATH-R4-001",
+   "title": "Data, Models, and Decisions",
+   "overlay_level": 1
+  },
+  {
+   "fstem_id": "FSTEM-POL-R4-001",
+   "title": "Political Economy I",
+   "overlay_level": 1
+  },
+  {
+   "fstem_id": "FSTEM-STS-R4-012",
+   "title": "Introduction to the History of Technology",
+   "overlay_level": 1
+  },
+  {
+   "fstem_id": "FSTEM-PHIL-R4-003",
+   "title": "Ethics of AI Bias",
+   "overlay_level": 1
+  },
+  {
+   "fstem_id": "FSTEM-STS-R4-018",
+   "title": "Histories of Information, Communication, and Computing Technologies",
+   "overlay_level": 1
+  },
+  {
+   "fstem_id": "FSTEM-HIST-R4-001",
+   "title": "Readings in American History Since 1877",
+   "overlay_level": 1
+  },
+  {
+   "fstem_id": "FSTEM-CORE-R4-001",
+   "title": "Organizational Leadership and Change",
+   "overlay_level": 0
+  }
+ ],
+ "framework": {
+  "stack": [
+   {
+    "layer": "Business Architecture",
+    "in_any_enterprise": "The capabilities the enterprise performs",
+    "holds_here": "The twelve domains",
+    "source_file": "KDP_MASTER.md",
+    "start_line": 165,
+    "end_line": 165
+   },
+   {
+    "layer": "Data Architecture",
+    "in_any_enterprise": "What the enterprise knows and stores",
+    "holds_here": "The Digital Twin",
+    "source_file": "KDP_MASTER.md",
+    "start_line": 166,
+    "end_line": 166
+   },
+   {
+    "layer": "Application Architecture",
+    "in_any_enterprise": "The routines that execute the work",
+    "holds_here": "The thirty-six stratagems",
+    "source_file": "KDP_MASTER.md",
+    "start_line": 167,
+    "end_line": 167
+   },
+   {
+    "layer": "Technology Architecture",
+    "in_any_enterprise": "The platforms every routine runs on",
+    "holds_here": "Cyber, compute and AI orchestration",
+    "source_file": "KDP_MASTER.md",
+    "start_line": 168,
+    "end_line": 168
+   },
+   {
+    "layer": "Architecture Principles",
+    "in_any_enterprise": "The rules every design must obey",
+    "holds_here": "The ten dimensions",
+    "source_file": "KDP_MASTER.md",
+    "start_line": 169,
+    "end_line": 169
+   },
+   {
+    "layer": "Architecture Governance",
+    "in_any_enterprise": "Authority over the whole",
+    "holds_here": "Coherence",
+    "source_file": "KDP_MASTER.md",
+    "start_line": 170,
+    "end_line": 170
+   }
+  ],
+  "dimensions": [
+   {
+    "id": "TDW-DIM01",
+    "number": 1,
+    "name": "Time",
+    "definition": "The size of the board, not the timing of a single blow.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4326,
+     "end_line": 4326
+    },
+    "question": "How long is your horizon?",
+    "principle": "Hold a longer horizon than the rival",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 211,
+     "end_line": 211
+    }
+   },
+   {
+    "id": "TDW-DIM02",
+    "number": 2,
+    "name": "Entropy",
+    "definition": "How much force a system loses to friction on the way from decision to result.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4328,
+     "end_line": 4328
+    },
+    "question": "How much force is lost to friction?",
+    "principle": "Cut friction where force must pass",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 212,
+     "end_line": 212
+    }
+   },
+   {
+    "id": "TDW-DIM03",
+    "number": 3,
+    "name": "Topology",
+    "definition": "The shape power flows through, star or mesh.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4330,
+     "end_line": 4330
+    },
+    "question": "What shape does power flow through?",
+    "principle": "Wire fast paths and back up every hub",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 213,
+     "end_line": 213
+    }
+   },
+   {
+    "id": "TDW-DIM04",
+    "number": 4,
+    "name": "Asymmetry",
+    "definition": "Fighting where you are strong against where the rival is weak, and the edges compound rather than add.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4332,
+     "end_line": 4332
+    },
+    "question": "Where is the ground already uneven?",
+    "principle": "Name every imbalance and price it",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 214,
+     "end_line": 214
+    }
+   },
+   {
+    "id": "TDW-DIM05",
+    "number": 5,
+    "name": "Agency",
+    "definition": "Whether a target was ever free to choose, beneath both Gradient and Resonance.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4334,
+     "end_line": 4334
+    },
+    "question": "Who is permitted to decide anything?",
+    "principle": "Expose dependence before it becomes capture",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 215,
+     "end_line": 215
+    }
+   },
+   {
+    "id": "TDW-DIM06",
+    "number": 6,
+    "name": "Resonance",
+    "definition": "Whether every domain points one way, so effort multiplies instead of cancelling.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4336,
+     "end_line": 4336
+    },
+    "question": "Do your actions point the same direction?",
+    "principle": "Point every domain the same way",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 216,
+     "end_line": 216
+    }
+   },
+   {
+    "id": "TDW-DIM07",
+    "number": 7,
+    "name": "Phase",
+    "definition": "Whether the blows land together or arrive in a sequence the target can answer one at a time.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4338,
+     "end_line": 4338
+    },
+    "question": "Do they arrive at the same moment?",
+    "principle": "Decide before the event so the answer lands in hours",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 217,
+     "end_line": 217
+    }
+   },
+   {
+    "id": "TDW-DIM08",
+    "number": 8,
+    "name": "Gradient",
+    "definition": "The slope that moves behavior with no order given.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4340,
+     "end_line": 4340
+    },
+    "question": "Which way does the slope run?",
+    "principle": "Flatten hostile slopes and use your own",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 218,
+     "end_line": 218
+    }
+   },
+   {
+    "id": "TDW-DIM09",
+    "number": 9,
+    "name": "Criticality",
+    "definition": "The tipping point where a small push starts a fall far larger than the push.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4342,
+     "end_line": 4342
+    },
+    "question": "Where does a small push cause a large fall?",
+    "principle": "Know every chokepoint on both sides",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 219,
+     "end_line": 219
+    }
+   },
+   {
+    "id": "TDW-DIM10",
+    "number": 10,
+    "name": "Coherence",
+    "definition": "The master Dimension, deciding whether the other nine add or cancel.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4344,
+     "end_line": 4344
+    },
+    "question": "Does the whole system pull one way?",
+    "principle": "Hold the whole to one aim",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 220,
+     "end_line": 220
+    }
+   }
+  ],
+  "domains": [
+   {
+    "id": "TDW-DOM01",
+    "number": 1,
+    "name": "Kinetic",
+    "definition": "The domain every reader already understands, and the one where non-use does the work.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4356,
+     "end_line": 4356
+    },
+    "summary": "Physical force, most of it employed without being used",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 184,
+     "end_line": 184
+    }
+   },
+   {
+    "id": "TDW-DOM02",
+    "number": 2,
+    "name": "Economic",
+    "definition": "The flow of goods a country needs to live and fight, turned into leverage.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4358,
+     "end_line": 4358
+    },
+    "summary": "Trade, supply and industrial dependency",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 185,
+     "end_line": 185
+    }
+   },
+   {
+    "id": "TDW-DOM03",
+    "number": 3,
+    "name": "Financial",
+    "definition": "Money and the rails that carry it.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4360,
+     "end_line": 4360
+    },
+    "summary": "Capital, credit and the rails that move money",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 186,
+     "end_line": 186
+    }
+   },
+   {
+    "id": "TDW-DOM04",
+    "number": 4,
+    "name": "Information",
+    "definition": "The fight over a shared set of facts.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4362,
+     "end_line": 4362
+    },
+    "summary": "What a population sees, believes and trusts",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 187,
+     "end_line": 187
+    }
+   },
+   {
+    "id": "TDW-DOM05",
+    "number": 5,
+    "name": "Psychological",
+    "definition": "The war on the will to keep resisting.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4364,
+     "end_line": 4364
+    },
+    "summary": "The will to resist",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 188,
+     "end_line": 188
+    }
+   },
+   {
+    "id": "TDW-DOM06",
+    "number": 6,
+    "name": "Legal",
+    "definition": "Law written as a weapon and worn as a shield.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4366,
+     "end_line": 4366
+    },
+    "summary": "Law as an instrument rather than a referee",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 189,
+     "end_line": 189
+    }
+   },
+   {
+    "id": "TDW-DOM07",
+    "number": 7,
+    "name": "Association",
+    "definition": "Coalitions bought and coalitions fractured.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4368,
+     "end_line": 4368
+    },
+    "summary": "Alliances, coalitions and who stands with whom",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 190,
+     "end_line": 190
+    }
+   },
+   {
+    "id": "TDW-DOM08",
+    "number": 8,
+    "name": "Cyber",
+    "definition": "The fight inside the networks everything else runs on, decided by pre-positioning rather than theft.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4370,
+     "end_line": 4370
+    },
+    "summary": "The networks everything else runs on",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 191,
+     "end_line": 191
+    }
+   },
+   {
+    "id": "TDW-DOM09",
+    "number": 9,
+    "name": "Cultural",
+    "definition": "What a society admires and teaches, moved without an order.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4372,
+     "end_line": 4372
+    },
+    "summary": "What a society admires and teaches",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 192,
+     "end_line": 192
+    }
+   },
+   {
+    "id": "TDW-DOM10",
+    "number": 10,
+    "name": "AI and Cognitive",
+    "definition": "The race to see, decide and act first, compressed toward zero.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4374,
+     "end_line": 4374
+    },
+    "summary": "The race to see, decide and act first",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 193,
+     "end_line": 193
+    }
+   },
+   {
+    "id": "TDW-DOM11",
+    "number": 11,
+    "name": "Biological",
+    "definition": "Degradation kept below the threshold of acknowledged war.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4376,
+     "end_line": 4376
+    },
+    "summary": "Health and human capital, degraded slowly",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 194,
+     "end_line": 194
+    }
+   },
+   {
+    "id": "TDW-DOM12",
+    "number": 12,
+    "name": "Data, Surveillance and Intelligence",
+    "definition": "Knowing more about the target than the target knows about you, at population scale and at committee scale together.",
+    "definition_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4378,
+     "end_line": 4378
+    },
+    "summary": "The harvest that lets the other eleven aim",
+    "stack_ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 195,
+     "end_line": 195
+    }
+   }
+  ],
+  "stratagems": [
+   {
+    "id": "TDW-S01",
+    "number": 1,
+    "name": "Deceive the Heavens to Cross the Sea",
+    "group_num": 1,
+    "group": "Group I. Stratagems of Superiority",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4156,
+     "end_line": 4156
+    }
+   },
+   {
+    "id": "TDW-S02",
+    "number": 2,
+    "name": "Besiege Wei to Rescue Zhao",
+    "group_num": 1,
+    "group": "Group I. Stratagems of Superiority",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4156,
+     "end_line": 4156
+    }
+   },
+   {
+    "id": "TDW-S03",
+    "number": 3,
+    "name": "Kill with a Borrowed Knife",
+    "group_num": 1,
+    "group": "Group I. Stratagems of Superiority",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4156,
+     "end_line": 4156
+    }
+   },
+   {
+    "id": "TDW-S04",
+    "number": 4,
+    "name": "Wait at Ease for the Weary Enemy",
+    "group_num": 1,
+    "group": "Group I. Stratagems of Superiority",
+    "is_anchor": true,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4154,
+     "end_line": 4154
+    }
+   },
+   {
+    "id": "TDW-S05",
+    "number": 5,
+    "name": "Loot a Burning House",
+    "group_num": 1,
+    "group": "Group I. Stratagems of Superiority",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4156,
+     "end_line": 4156
+    }
+   },
+   {
+    "id": "TDW-S06",
+    "number": 6,
+    "name": "Make a Sound in the East, Strike in the West",
+    "group_num": 1,
+    "group": "Group I. Stratagems of Superiority",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4156,
+     "end_line": 4156
+    }
+   },
+   {
+    "id": "TDW-S07",
+    "number": 7,
+    "name": "Create Something from Nothing",
+    "group_num": 2,
+    "group": "Group II. Stratagems of Confrontation",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4164,
+     "end_line": 4164
+    }
+   },
+   {
+    "id": "TDW-S08",
+    "number": 8,
+    "name": "Openly Repair the Gallery Roads, March Secretly Through Chencang",
+    "group_num": 2,
+    "group": "Group II. Stratagems of Confrontation",
+    "is_anchor": true,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4162,
+     "end_line": 4162
+    }
+   },
+   {
+    "id": "TDW-S09",
+    "number": 9,
+    "name": "Watch the Fire from Across the River",
+    "group_num": 2,
+    "group": "Group II. Stratagems of Confrontation",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4164,
+     "end_line": 4164
+    }
+   },
+   {
+    "id": "TDW-S10",
+    "number": 10,
+    "name": "Hide a Knife Behind a Smile",
+    "group_num": 2,
+    "group": "Group II. Stratagems of Confrontation",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4164,
+     "end_line": 4164
+    }
+   },
+   {
+    "id": "TDW-S11",
+    "number": 11,
+    "name": "Sacrifice the Plum Tree to Preserve the Peach",
+    "group_num": 2,
+    "group": "Group II. Stratagems of Confrontation",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4164,
+     "end_line": 4164
+    }
+   },
+   {
+    "id": "TDW-S12",
+    "number": 12,
+    "name": "Take the Opportunity to Pilfer a Goat",
+    "group_num": 2,
+    "group": "Group II. Stratagems of Confrontation",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4164,
+     "end_line": 4164
+    }
+   },
+   {
+    "id": "TDW-S13",
+    "number": 13,
+    "name": "Stomp the Grass to Scare the Snake",
+    "group_num": 3,
+    "group": "Group III. Stratagems of Attack",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4172,
+     "end_line": 4172
+    }
+   },
+   {
+    "id": "TDW-S14",
+    "number": 14,
+    "name": "Borrow a Corpse to Resurrect the Soul",
+    "group_num": 3,
+    "group": "Group III. Stratagems of Attack",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4172,
+     "end_line": 4172
+    }
+   },
+   {
+    "id": "TDW-S15",
+    "number": 15,
+    "name": "Lure the Tiger Down the Mountain",
+    "group_num": 3,
+    "group": "Group III. Stratagems of Attack",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4172,
+     "end_line": 4172
+    }
+   },
+   {
+    "id": "TDW-S16",
+    "number": 16,
+    "name": "Let the Enemy Off in Order to Catch Them",
+    "group_num": 3,
+    "group": "Group III. Stratagems of Attack",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4172,
+     "end_line": 4172
+    }
+   },
+   {
+    "id": "TDW-S17",
+    "number": 17,
+    "name": "Cast a Brick to Attract Jade",
+    "group_num": 3,
+    "group": "Group III. Stratagems of Attack",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4172,
+     "end_line": 4172
+    }
+   },
+   {
+    "id": "TDW-S18",
+    "number": 18,
+    "name": "Capture the Ringleader to Disband the Bandits",
+    "group_num": 3,
+    "group": "Group III. Stratagems of Attack",
+    "is_anchor": true,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4170,
+     "end_line": 4170
+    }
+   },
+   {
+    "id": "TDW-S19",
+    "number": 19,
+    "name": "Remove the Firewood from Under the Pot",
+    "group_num": 4,
+    "group": "Group IV. Stratagems of Confusion",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4180,
+     "end_line": 4180
+    }
+   },
+   {
+    "id": "TDW-S20",
+    "number": 20,
+    "name": "Muddy the Waters to Catch the Fish",
+    "group_num": 4,
+    "group": "Group IV. Stratagems of Confusion",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4180,
+     "end_line": 4180
+    }
+   },
+   {
+    "id": "TDW-S21",
+    "number": 21,
+    "name": "Slough Off the Cicada's Golden Shell",
+    "group_num": 4,
+    "group": "Group IV. Stratagems of Confusion",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4180,
+     "end_line": 4180
+    }
+   },
+   {
+    "id": "TDW-S22",
+    "number": 22,
+    "name": "Shut the Door to Catch the Thief",
+    "group_num": 4,
+    "group": "Group IV. Stratagems of Confusion",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4180,
+     "end_line": 4180
+    }
+   },
+   {
+    "id": "TDW-S23",
+    "number": 23,
+    "name": "Befriend a Distant State While Attacking a Neighbor",
+    "group_num": 4,
+    "group": "Group IV. Stratagems of Confusion",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4180,
+     "end_line": 4180
+    }
+   },
+   {
+    "id": "TDW-S24",
+    "number": 24,
+    "name": "Borrow the Road to Conquer Guo",
+    "group_num": 4,
+    "group": "Group IV. Stratagems of Confusion",
+    "is_anchor": true,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4178,
+     "end_line": 4178
+    }
+   },
+   {
+    "id": "TDW-S25",
+    "number": 25,
+    "name": "Replace the Beams with Rotten Timbers",
+    "group_num": 5,
+    "group": "Group V. Stratagems of Control",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4188,
+     "end_line": 4188
+    }
+   },
+   {
+    "id": "TDW-S26",
+    "number": 26,
+    "name": "Point at the Mulberry While Cursing the Locust",
+    "group_num": 5,
+    "group": "Group V. Stratagems of Control",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4188,
+     "end_line": 4188
+    }
+   },
+   {
+    "id": "TDW-S27",
+    "number": 27,
+    "name": "Feign Madness Without Losing Balance",
+    "group_num": 5,
+    "group": "Group V. Stratagems of Control",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4188,
+     "end_line": 4188
+    }
+   },
+   {
+    "id": "TDW-S28",
+    "number": 28,
+    "name": "Lure the Enemy onto the Roof, Then Remove the Ladder",
+    "group_num": 5,
+    "group": "Group V. Stratagems of Control",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4188,
+     "end_line": 4188
+    }
+   },
+   {
+    "id": "TDW-S29",
+    "number": 29,
+    "name": "Deck the Tree with False Blossoms",
+    "group_num": 5,
+    "group": "Group V. Stratagems of Control",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4188,
+     "end_line": 4188
+    }
+   },
+   {
+    "id": "TDW-S30",
+    "number": 30,
+    "name": "Make the Host and the Guest Exchange Places",
+    "group_num": 5,
+    "group": "Group V. Stratagems of Control",
+    "is_anchor": true,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4186,
+     "end_line": 4186
+    }
+   },
+   {
+    "id": "TDW-S31",
+    "number": 31,
+    "name": "The Beauty Trap",
+    "group_num": 6,
+    "group": "Group VI. Stratagems of Desperate Situations",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4196,
+     "end_line": 4196
+    }
+   },
+   {
+    "id": "TDW-S32",
+    "number": 32,
+    "name": "The Empty Fortress",
+    "group_num": 6,
+    "group": "Group VI. Stratagems of Desperate Situations",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4196,
+     "end_line": 4196
+    }
+   },
+   {
+    "id": "TDW-S33",
+    "number": 33,
+    "name": "Sow Discord Among the Enemy",
+    "group_num": 6,
+    "group": "Group VI. Stratagems of Desperate Situations",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4196,
+     "end_line": 4196
+    }
+   },
+   {
+    "id": "TDW-S34",
+    "number": 34,
+    "name": "Inflict Injury on Yourself to Win Trust",
+    "group_num": 6,
+    "group": "Group VI. Stratagems of Desperate Situations",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4196,
+     "end_line": 4196
+    }
+   },
+   {
+    "id": "TDW-S35",
+    "number": 35,
+    "name": "Chain the Stratagems",
+    "group_num": 6,
+    "group": "Group VI. Stratagems of Desperate Situations",
+    "is_anchor": false,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4196,
+     "end_line": 4196
+    }
+   },
+   {
+    "id": "TDW-S36",
+    "number": 36,
+    "name": "If All Else Fails, Retreat",
+    "group_num": 6,
+    "group": "Group VI. Stratagems of Desperate Situations",
+    "is_anchor": true,
+    "ref": {
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4194,
+     "end_line": 4194
+    }
+   }
+  ],
+  "lifecycle": [
+   {
+    "stage": "Attract",
+    "primer_chapter": 6,
+    "ref": {
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 447,
+     "end_line": 499
+    },
+    "kdp_case_chapter": "Attract"
+   },
+   {
+    "stage": "Accommodate",
+    "primer_chapter": 7,
+    "ref": {
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 501,
+     "end_line": 553
+    },
+    "kdp_case_chapter": "Accommodate"
+   },
+   {
+    "stage": "Control",
+    "primer_chapter": 8,
+    "ref": {
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 555,
+     "end_line": 607
+    },
+    "kdp_case_chapter": "Military-Civil Fusion"
+   },
+   {
+    "stage": "Extract",
+    "primer_chapter": 9,
+    "ref": {
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 609,
+     "end_line": 657
+    },
+    "kdp_case_chapter": "COVID-19"
+   },
+   {
+    "stage": "Consume",
+    "primer_chapter": 10,
+    "ref": {
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 659,
+     "end_line": 711
+    },
+    "kdp_case_chapter": "Taiwan: The Republic of China"
+   }
+  ]
+ },
+ "books": [
+  {
+   "doc_id": "KDP",
+   "front_matter": {
+    "title": "Total Domain War",
+    "subtitle": "A Framework for Understanding the Chinese Communist Party's Whole-of-Society Contest with the Free World",
+    "edition": "Second Edition",
+    "author": "[AUTHOR NAME]",
+    "publisher": "[PUBLISHER NAME]",
+    "rights": "Copyright © [YEAR] [AUTHOR NAME OR ENTITY]. All rights reserved.",
+    "lang": "en-US",
+    "isbn-paperback": "[PAPERBACK ISBN]",
+    "isbn-hardcover": "[HARDCOVER ISBN]",
+    "isbn-ebook": "[EBOOK ISBN]"
+   },
+   "parts": [
+    {
+     "title": "Part I. The Weapon Fired",
+     "source_file": "KDP_MASTER.md",
+     "start_line": 397,
+     "end_line": 967
+    },
+    {
+     "title": "Part II. Totality",
+     "source_file": "KDP_MASTER.md",
+     "start_line": 969,
+     "end_line": 1161
+    },
+    {
+     "title": "Part III. The Lifecycle",
+     "source_file": "KDP_MASTER.md",
+     "start_line": 1163,
+     "end_line": 3172
+    },
+    {
+     "title": "Part IV. The Host Turns",
+     "source_file": "KDP_MASTER.md",
+     "start_line": 3174,
+     "end_line": 3738
+    },
+    {
+     "title": "Part V. The Opening",
+     "source_file": "KDP_MASTER.md",
+     "start_line": 3740,
+     "end_line": 3942
+    },
+    {
+     "title": "Appendices",
+     "source_file": "KDP_MASTER.md",
+     "start_line": 3944,
+     "end_line": 5816
+    }
+   ],
+   "chapters": [
+    {
+     "title": "Author's Note",
+     "part": null,
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 48,
+     "end_line": 145
+    },
+    {
+     "title": "The Stack",
+     "part": null,
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 147,
+     "end_line": 297
+    },
+    {
+     "title": "Prologue: Two Men With Nothing",
+     "part": null,
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 299,
+     "end_line": 395
+    },
+    {
+     "title": "Hong Kong: The National Security Law",
+     "part": "Part I. The Weapon Fired",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 399,
+     "end_line": 689
+    },
+    {
+     "title": "Technology IP: The One-Way Transfer",
+     "part": "Part I. The Weapon Fired",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 691,
+     "end_line": 967
+    },
+    {
+     "title": "Total Domain War, Not Asymmetric War",
+     "part": "Part II. Totality",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 971,
+     "end_line": 1035
+    },
+    {
+     "title": "We Built This",
+     "part": "Part II. Totality",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 1037,
+     "end_line": 1135
+    },
+    {
+     "title": "How to Read the Machine",
+     "part": "Part II. Totality",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 1137,
+     "end_line": 1161
+    },
+    {
+     "title": "Attract",
+     "part": "Part III. The Lifecycle",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 1165,
+     "end_line": 1463
+    },
+    {
+     "title": "Accommodate",
+     "part": "Part III. The Lifecycle",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 1465,
+     "end_line": 1755
+    },
+    {
+     "title": "Military-Civil Fusion",
+     "part": "Part III. The Lifecycle",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 1757,
+     "end_line": 2023
+    },
+    {
+     "title": "The Long Arm",
+     "part": "Part III. The Lifecycle",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 2025,
+     "end_line": 2264
+    },
+    {
+     "title": "Protocols and Ports",
+     "part": "Part III. The Lifecycle",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 2266,
+     "end_line": 2503
+    },
+    {
+     "title": "COVID-19",
+     "part": "Part III. The Lifecycle",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 2505,
+     "end_line": 2803
+    },
+    {
+     "title": "Taiwan: The Republic of China",
+     "part": "Part III. The Lifecycle",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 2805,
+     "end_line": 3172
+    },
+    {
+     "title": "Financial Control",
+     "part": "Part IV. The Host Turns",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 3176,
+     "end_line": 3442
+    },
+    {
+     "title": "The Pen From the Inside",
+     "part": "Part IV. The Host Turns",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 3444,
+     "end_line": 3738
+    },
+    {
+     "title": "Coherence Without Command",
+     "part": "Part V. The Opening",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 3742,
+     "end_line": 3854
+    },
+    {
+     "title": "The Roadmap",
+     "part": "Part V. The Opening",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 3856,
+     "end_line": 3884
+    },
+    {
+     "title": "The Generation That Builds It",
+     "part": "Part V. The Opening",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 3886,
+     "end_line": 3942
+    },
+    {
+     "title": "Appendix A. The Stack in Full",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 3946,
+     "end_line": 4130
+    },
+    {
+     "title": "Appendix B. The Thirty-Six Stratagems in Full",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4132,
+     "end_line": 4314
+    },
+    {
+     "title": "Appendix C. The Ten Dimensions and Twelve Domains in Full",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4316,
+     "end_line": 4438
+    },
+    {
+     "title": "Appendix D. The Doctrine Crosswalk",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4440,
+     "end_line": 4499
+    },
+    {
+     "title": "Appendix E. The Digital Twin",
+     "part": "Appendices",
+     "is_case_chapter": true,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4501,
+     "end_line": 4795
+    },
+    {
+     "title": "Appendix F. The Consolidated Roadmap",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4797,
+     "end_line": 4904
+    },
+    {
+     "title": "Appendix G. The Shelf",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4906,
+     "end_line": 4962
+    },
+    {
+     "title": "Appendix H. Notes and Sourcing, by Chapter",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 4964,
+     "end_line": 5800
+    },
+    {
+     "title": "Acknowledgments",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 5802,
+     "end_line": 5804
+    },
+    {
+     "title": "About the Author",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 5806,
+     "end_line": 5810
+    },
+    {
+     "title": "A Note on What Comes Next",
+     "part": "Appendices",
+     "is_case_chapter": false,
+     "source_file": "KDP_MASTER.md",
+     "start_line": 5812,
+     "end_line": 5816
+    }
+   ],
+   "counts": {
+    "claims_documented": 115,
+    "claims_argued": 112,
+    "notes": 320
+   },
+   "source_file": "KDP_MASTER.md",
+   "sha256": "0af73e46217931b40b5244333b421056d2b4141cc43111d5b054ae494248057c"
+  },
+  {
+   "doc_id": "PRIMER",
+   "front_matter": {
+    "title": "Total Domain War: The Primer",
+    "subtitle": "What the Contest Looks Like From Twenty",
+    "author": "[AUTHOR NAME]",
+    "publisher": "[PUBLISHER NAME]",
+    "rights": "Copyright © [YEAR] [AUTHOR NAME OR ENTITY]. All rights reserved.",
+    "lang": "en-US",
+    "isbn-paperback": "[PAPERBACK ISBN]",
+    "isbn-ebook": "[EBOOK ISBN]"
+   },
+   "parts": [
+    {
+     "title": "TOTAL DOMAIN WAR: THE PRIMER",
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 12,
+     "end_line": 47
+    },
+    {
+     "title": "Part One. You Are the Audience",
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 50,
+     "end_line": 225
+    },
+    {
+     "title": "Part Two. How the Machine Works",
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 227,
+     "end_line": 442
+    },
+    {
+     "title": "Part Three. One Lifecycle, Five Lives",
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 444,
+     "end_line": 711
+    },
+    {
+     "title": "Part Four. The Opening",
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 713,
+     "end_line": 852
+    },
+    {
+     "title": "Back Matter",
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 854,
+     "end_line": 1155
+    }
+   ],
+   "chapters": [
+    {
+     "title": "What the Contest Looks Like From Twenty",
+     "part": "TOTAL DOMAIN WAR: THE PRIMER",
+     "is_case_chapter": false,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 14,
+     "end_line": 16
+    },
+    {
+     "title": "Chapter 1. Your Whole Life Ahead",
+     "part": "Part One. You Are the Audience",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 53,
+     "end_line": 141
+    },
+    {
+     "title": "Chapter 2. Two Men With Nothing",
+     "part": "Part One. You Are the Audience",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 143,
+     "end_line": 225
+    },
+    {
+     "title": "Chapter 3. Ten Forces",
+     "part": "Part Two. How the Machine Works",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 230,
+     "end_line": 300
+    },
+    {
+     "title": "Chapter 4. Twelve Fields",
+     "part": "Part Two. How the Machine Works",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 302,
+     "end_line": 380
+    },
+    {
+     "title": "Chapter 5. Thirty-Six Moves",
+     "part": "Part Two. How the Machine Works",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 382,
+     "end_line": 442
+    },
+    {
+     "title": "Chapter 6. Attract",
+     "part": "Part Three. One Lifecycle, Five Lives",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 447,
+     "end_line": 499
+    },
+    {
+     "title": "Chapter 7. Accommodate",
+     "part": "Part Three. One Lifecycle, Five Lives",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 501,
+     "end_line": 553
+    },
+    {
+     "title": "Chapter 8. Control",
+     "part": "Part Three. One Lifecycle, Five Lives",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 555,
+     "end_line": 607
+    },
+    {
+     "title": "Chapter 9. Extract",
+     "part": "Part Three. One Lifecycle, Five Lives",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 609,
+     "end_line": 657
+    },
+    {
+     "title": "Chapter 10. Consume",
+     "part": "Part Three. One Lifecycle, Five Lives",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 659,
+     "end_line": 711
+    },
+    {
+     "title": "Chapter 11. Protecting Your Capacity to Decide",
+     "part": "Part Four. The Opening",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 716,
+     "end_line": 772
+    },
+    {
+     "title": "Chapter 12. The Jobs Nobody Is Doing",
+     "part": "Part Four. The Opening",
+     "is_case_chapter": true,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 774,
+     "end_line": 852
+    },
+    {
+     "title": "All Twelve Field Cards",
+     "part": "Back Matter",
+     "is_case_chapter": false,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 856,
+     "end_line": 978
+    },
+    {
+     "title": "Glossary",
+     "part": "Back Matter",
+     "is_case_chapter": false,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 980,
+     "end_line": 1076
+    },
+    {
+     "title": "The Shelf",
+     "part": "Back Matter",
+     "is_case_chapter": false,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 1078,
+     "end_line": 1096
+    },
+    {
+     "title": "Discussion Guide",
+     "part": "Back Matter",
+     "is_case_chapter": false,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 1098,
+     "end_line": 1124
+    },
+    {
+     "title": "Notes: Where Each Chapter Comes From",
+     "part": "Back Matter",
+     "is_case_chapter": false,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 1126,
+     "end_line": 1145
+    },
+    {
+     "title": "Acknowledgments",
+     "part": "Back Matter",
+     "is_case_chapter": false,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 1147,
+     "end_line": 1149
+    },
+    {
+     "title": "About the Author",
+     "part": "Back Matter",
+     "is_case_chapter": false,
+     "source_file": "PRIMER_MASTER.md",
+     "start_line": 1151,
+     "end_line": 1155
+    }
+   ],
+   "counts": {
+    "claims_documented": 30,
+    "claims_argued": 15,
+    "notes": 78
+   },
+   "source_file": "PRIMER_MASTER.md",
+   "sha256": "f44c37b5e96e11813363e4dc76acb1d6e02db365fa0f351d43e391025be7a059"
+  }
+ ]
+}

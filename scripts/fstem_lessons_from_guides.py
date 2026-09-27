@@ -166,7 +166,7 @@ def main():
     q = lambda s: con.execute(s).fetchone()[0]
     print(f"lessons under drafted modules still skeleton: "
           f"{q('SELECT COUNT(*) FROM lessons l JOIN modules m ON m.module_id=l.module_id WHERE m.status=\"draft\" AND l.status=\"skeleton\"')}")
-    print(f"overlay lesson rows: {q('SELECT COUNT(*) FROM lessons WHERE module_id LIKE \"FSTEM-AI-SPINE-001-M8-m%\"')}")
+    print(f"overlay lesson rows: {q('SELECT COUNT(*) FROM lessons WHERE module_id LIKE \"FSTEM-AI-SPINE-001-M8-%m_\"')}")
 
 
 if __name__ == "__main__":
